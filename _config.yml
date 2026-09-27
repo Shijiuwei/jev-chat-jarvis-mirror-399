@@ -1,0 +1,5 @@
+title: "jev-chat-jarvis-mirror-399"
+description: "High availability mirror and network topology specifications for jev-chat/jev-chat-jarvis"
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
