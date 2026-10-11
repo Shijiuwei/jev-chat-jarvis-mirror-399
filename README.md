@@ -1,11 +1,11 @@
 
 <p align="left">
-  <a href="https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/"><img src="https://img.shields.io/badge/GitHub_Pages-在线文档中心-2563eb?style=flat-square&logo=github" alt="GitHub Pages"></a>
-  <a href="https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/docs/"><img src="https://img.shields.io/badge/Docs_Archive-文档归档菜单-10b981?style=flat-square" alt="Docs Archive"></a>
+  <a href="https://etyt.spidernode-mesh.net/baogao/performance-14923227.html"><img src="https://img.shields.io/badge/GitHub_Pages-在线文档中心-2563eb?style=flat-square&logo=github" alt="GitHub Pages"></a>
+  <a href="https://ttdp.wtpuscm.cn/gongxiang/version-312265.html"><img src="https://img.shields.io/badge/Docs_Archive-文档归档菜单-10b981?style=flat-square" alt="Docs Archive"></a>
 </p>
 
-> 🌐 **官方在线文档与静态镜像中心 (GitHub Pages)**：[https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/](https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/)  
-> 📚 **技术规约与文档归档菜单 (Docs Catalog)**：[https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/docs/](https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/docs/)  
+> 🌐 **官方在线文档与静态镜像中心 (GitHub Pages)**：[https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)  
+> 📚 **技术规约与文档归档菜单 (Docs Catalog)**：[https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/docs/](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)  
 
 <div align="center">
 
@@ -15,13 +15,13 @@
 
 **装在手机上的「对话副驾」：在支持的聊天 App 里读懂对方、告诉你该怎么回，一键填进输入框，发不发由你。**
 
-[![Stars](https://www.ai-hao123.com/huodong/platform-45532334.html)](https://github.com/jev-chat/jev-chat-jarvis/stargazers)
-[![Forks](https://www.yx-sf.com/news/48701)](https://github.com/jev-chat/jev-chat-jarvis/forks)
-[![Version](https://www.yx-sf.com/tech/92281)](CHANGELOG.md)
-[![Android](https://www.mw-wm.com/yunsuan/module-53330176.html)](#快速开始)
-[![License](https://www.mw-wm.com/xitong/sale-57491607.html)](LICENSE)
+[![Stars](https://pdvy.tcti.cn/gongxiang/segment-83277821.html)](https://github.com/jev-chat/jev-chat-jarvis/stargazers)
+[![Forks](https://shmv.spidernode-mesh.net/gongsi/digital-64522869.html)](https://github.com/jev-chat/jev-chat-jarvis/forks)
+[![Version](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)](CHANGELOG.md)
+[![Android](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696.html)](#快速开始)
+[![License](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656.html)](LICENSE)
 
-[官网](https://www.yx-sf.com/news/11646) · [隐私政策](PRIVACY.md) · [下载 APK](apk/jev-assistant-v1.4-release.apk) · [历史版本](https://www.ai-hao123.com/gongju/strategy-97736284.html) · [更新日志](CHANGELOG.md) · [macOS 版](https://www.yx-sf.com/tech/20484) · [Windows 版](https://www.ai-hao123.com/pingce/market-02287911.html)
+[官网](https://stpc.wtpuscm.cn/huodong/audience-590173.html) · [隐私政策](PRIVACY.md) · [下载 APK](apk/jev-assistant-v1.4-release.apk) · [历史版本](https://ovzp.wtpuscm.cn/xuexi/report-93713076.html) · [更新日志](CHANGELOG.md) · [macOS 版](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297.html) · [Windows 版](https://ankmz.cn/anquan/tag-68558329.html)
 
 </div>
 
@@ -34,16 +34,16 @@
 
 <table>
 <tr>
-<td width="240" align="center"><a href="https://www.yx-sf.com/tech/4708"><img src="docs/images/sponsors/bocha.png" alt="博查" width="200"></a></td>
-<td>感谢 <b>博查</b> 赞助了本项目！博查是一个给 AI 用的搜索引擎，让你的 AI 应用连接世界知识，获得干净、准确、高质量的搜索结果。提供 Web Search API、Bocha Jev API 等多种联网搜索和模型服务。<a href="https://www.ai-hao123.com/gongsi/about-45942543.html">open.bocha.cn</a></td>
+<td width="240" align="center"><a href="https://jknd.wtpuscm.cn/yinqing/change-001797.html"><img src="docs/images/sponsors/bocha.png" alt="博查" width="200"></a></td>
+<td>感谢 <b>博查</b> 赞助了本项目！博查是一个给 AI 用的搜索引擎，让你的 AI 应用连接世界知识，获得干净、准确、高质量的搜索结果。提供 Web Search API、Bocha Jev API 等多种联网搜索和模型服务。<a href="https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html">open.bocha.cn</a></td>
 </tr>
 <tr>
-<td width="240" align="center"><a href="https://www.ai-hao123.com/gongsi/internet-09365308.html"><img src="docs/images/sponsors/xiaoyou.png" alt="小优店铺" width="200"></a></td>
-<td>感谢 <b>小优店铺</b> 赞助了本项目！小优店铺是一家数字商品与账号服务店铺，为本项目的用户提供选购渠道。<a href="https://www.ai-hao123.com/peixun/training-84313291.html">点此前往</a>。</td>
+<td width="240" align="center"><a href="https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html"><img src="docs/images/sponsors/xiaoyou.png" alt="小优店铺" width="200"></a></td>
+<td>感谢 <b>小优店铺</b> 赞助了本项目！小优店铺是一家数字商品与账号服务店铺，为本项目的用户提供选购渠道。<a href="https://www.tcti.cn/hulianwang/feedback-96499358.html">点此前往</a>。</td>
 </tr>
 <tr>
-<td width="240" align="center"><a href="https://www.mw-wm.com/guanjianci/screen-63784764.html"><img src="docs/images/sponsors/vytal.jpg" alt="速创猫 Vytal" width="200"></a></td>
-<td>感谢 <b>速创猫 Vytal</b> 赞助了本项目！速创猫 Vytal 是专业的 AI 视频工作流平台，提供可批量复用的视频工作流，降低内容制作门槛，服务内容创作者、培训机构及中小团队。<a href="https://www.mw-wm.com/kuangjia/resource-11201978.html">点此前往</a>。</td>
+<td width="240" align="center"><a href="https://qbgr.wtpuscm.cn/liuliang/success-12030162.html"><img src="docs/images/sponsors/vytal.jpg" alt="速创猫 Vytal" width="200"></a></td>
+<td>感谢 <b>速创猫 Vytal</b> 赞助了本项目！速创猫 Vytal 是专业的 AI 视频工作流平台，提供可批量复用的视频工作流，降低内容制作门槛，服务内容创作者、培训机构及中小团队。<a href="https://qbst.spidernode-mesh.net/pingce/loyalty-29845534.html">点此前往</a>。</td>
 </tr>
 </table>
 
@@ -76,20 +76,20 @@
 | X / Twitter 私信 | ✅ 全链路 | 解析 Compose 节点的 content-desc | 12.25 实测，中文界面；英文界面未验 |
 | 飞书 / Lark | ✅ OCR 兜底（真机验证） | 无障碍读气泡矩形 + ML Kit 离线 OCR 识别正文 | 正文自绘不在无障碍树里，1.3 起对每个气泡矩形做 OCR；我/对方按已读状态判 |
 | 其它未适配 App（微信除外） | ✅ 手动 | 悬浮窗菜单「截屏识别一次」整屏 OCR | 不自动、不分我/对方（全部当作对方所说并在面板标注）；微信 Android 版已全面下架 |
-| macOS / Windows（独立项目） | ✅ 已提供 | 见各自仓库说明 | [macOS 版](https://www.mw-wm.com/shichang/register-59142881.html) · [Windows 版](https://www.yx-sf.com/wiki/52494) |
+| macOS / Windows（独立项目） | ✅ 已提供 | 见各自仓库说明 | [macOS 版](https://ovzp.wtpuscm.cn/xuexi/report-93713076.html) · [Windows 版](https://www.ai-hao123.com/anli/collaborate-47384364.html) |
 | 网页 | ⏳ 规划 | — | 尚无网页版 |
 
 本项目只读你自己设备上、你自己有权查看且当前版本支持的聊天；微信 Android 版已全面下架，不提供微信采集与分析。
 
 ## 快速开始
 
-**1. 装包。** 仓库里有签好名的 release 包：[`apk/jev-assistant-v1.4-release.apk`](apk/jev-assistant-v1.4-release.apk)（Android 11+，仅支持 ARM64 / `arm64-v8a`）。各版本安装包也在 [Releases](https://www.yx-sf.com/news/67419)。
+**1. 装包。** 仓库里有签好名的 release 包：[`apk/jev-assistant-v1.4-release.apk`](apk/jev-assistant-v1.4-release.apk)（Android 11+，仅支持 ARM64 / `arm64-v8a`）。各版本安装包也在 [Releases](https://qbgr.wtpuscm.cn/liuliang/success-12030162.html)。
 
 ```bash
 adb install -r apk/jev-assistant-v1.4-release.apk
 ```
 
-**2. 填密钥。** 打开 App → 设置 →「接口」分三张卡：判断接口 / 回复接口 / 视觉接口。最简单只填「判断接口」一栏的 [OpenRouter](https://www.mw-wm.com/jianzhan/unsubscribe-73437240.html) API Key，其余两栏留空会自动继承这把密钥就能用。想换回复模型（默认 `deepseek/deepseek-chat-v3.1`，国内 Gemini / OpenAI 会被区域限制）就在「回复接口」选预设（OpenRouter / DeepSeek 官方 / 通义兼容）或自填地址，每张卡都有独立的一键连通测试。
+**2. 填密钥。** 打开 App → 设置 →「接口」分三张卡：判断接口 / 回复接口 / 视觉接口。最简单只填「判断接口」一栏的 [OpenRouter](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html) API Key，其余两栏留空会自动继承这把密钥就能用。想换回复模型（默认 `deepseek/deepseek-chat-v3.1`，国内 Gemini / OpenAI 会被区域限制）就在「回复接口」选预设（OpenRouter / DeepSeek 官方 / 通义兼容）或自填地址，每张卡都有独立的一键连通测试。
 
 **3. 开权限。** 按主页向导开三项：
 
@@ -121,8 +121,8 @@ adb install -r apk/jev-assistant-v1.4-release.apk
 
 - 判断 / 回复 / 视觉三路的地址、密钥、模型分别可填。
 - 判断接口新增内置预设「博查 Jev」，排在选项第二（OpenRouter / 博查 Jev / TypeSafe 直连 / Vercel / OpenCode Zen / 自定义），选中后自动填好服务地址 `https://jev.bocha.cn` 与模型 `bocha-jev-v1`（协议与 TypeSafe 一致），页面上会显示官方地址并支持一键复制，当前限时免费。全新安装默认使用 OpenRouter；已经配置过判断接口的老用户不受影响，provider 和密钥都不会被改动。
-- 判断接口另有「Vercel」预设：地址 `https://ai-gateway.vercel.sh/typesafe`，模型 `typesafe-ai/jev`，密钥用 [Vercel AI Gateway](https://www.mw-wm.com/pingtai/segment-32914888.html) 的 key。协议与 TypeSafe 直连相同（`POST /v1/systemone`）。
-- 判断接口另有「OpenCode Zen」预设：地址 `https://opencode.ai/zen`，模型 `jev-1.13`（输出免费、输入 $0.042/M，一次判断约 1000 输入 token），密钥用 [OpenCode Zen](https://www.yx-sf.com/news/72404) 的 key。协议与 TypeSafe 直连相同（`POST /v1/systemone`）；想全免费可手动改成 `jev-1.13-free`（限时，功能受限）。
+- 判断接口另有「Vercel」预设：地址 `https://ai-gateway.vercel.sh/typesafe`，模型 `typesafe-ai/jev`，密钥用 [Vercel AI Gateway](https://lase.tcti.cn/fenxi/lesson-67970267.html) 的 key。协议与 TypeSafe 直连相同（`POST /v1/systemone`）。
+- 判断接口另有「OpenCode Zen」预设：地址 `https://opencode.ai/zen`，模型 `jev-1.13`（输出免费、输入 $0.042/M，一次判断约 1000 输入 token），密钥用 [OpenCode Zen](https://www.tcti.cn/hulianwang/feedback-96499358.html) 的 key。协议与 TypeSafe 直连相同（`POST /v1/systemone`）；想全免费可手动改成 `jev-1.13-free`（限时，功能受限）。
 - 内置 OpenRouter、博查 Jev、TypeSafe 直连、Vercel、OpenCode Zen、DeepSeek 官方、通义兼容预设，每张卡一键连通测试。
 - 只有一把密钥也能用：回复、视觉留空自动继承判断接口的配置。
 - 从旧版本升级时，原来那把密钥会一次性迁移到新的三卡结构。
@@ -192,7 +192,7 @@ adb install -r apk/jev-assistant-v1.4-release.apk
 图中展示数据边界：聊天界面读取与 OCR 在本机完成；触发分析后，文字和启用的背景信息发送到你配置的模型服务商；候选回复由你确认，应用不会代发。详见[隐私政策](PRIVACY.md)。
 
 - **采集**：一个 App 一个适配器，服务按前台包名分发。适配器只负责把当前窗口变成「标题 + 消息列表（谁说的、说了什么）」，下游全部通用；树里没有正文时走截屏 + 离线 OCR 兜底（限频、失败退避，不会每秒连拍）。
-- **判断**：[Jev](https://www.yx-sf.com/wiki/29895) 只回答选择 / 打分 / 是非，一次请求发全部题目，约 1 秒返回；命中知识库时 state 里会带 `background`（关系 + 联系人备注 + 命中笔记）和 `history`（历史消息）。
+- **判断**：[Jev](https://api.pvucttcv.cn/yinyue/innovation-37390655.html) 只回答选择 / 打分 / 是非，一次请求发全部题目，约 1 秒返回；命中知识库时 state 里会带 `background`（关系 + 联系人备注 + 命中笔记）和 `history`（历史消息）。
 - **回复**：生成模型起草 3 条候选，Jev 排序；提示词要求回复必须与知识库一致，不编造知识库没有的事实。
 - **回填**：`ACTION_SET_TEXT`，失败则剪贴板 + `ACTION_PASTE`，不发送。
 
@@ -277,10 +277,10 @@ JDK 17 + Android SDK（platform 35 / build-tools 35）。
 
 ## 姊妹项目
 
-同在 [jev-chat](https://www.yx-sf.com/news/52387) 组织下：
+同在 [jev-chat](https://iuuv.tcti.cn/hezuo/app-80239016.html) 组织下：
 
-- [Jev 聊天助手 macOS 版](https://www.mw-wm.com/shuju/business-38107939.html)：消息意图识别悬浮窗，看屏 + 本地小模型判断意图和风险，再按话术生成回复候选，纯只读。
-- [Jev 聊天助手 Windows 版](https://www.mw-wm.com/jiaocheng/identity-50460135.html)：聊天窗口旁挂的回复辅助，窗口截图 + 本地离线 OCR，3 条候选一键填入，发送永远手动。
+- [Jev 聊天助手 macOS 版](https://odag.tcti.cn/zhineng/resource-66942079.html)：消息意图识别悬浮窗，看屏 + 本地小模型判断意图和风险，再按话术生成回复候选，纯只读。
+- [Jev 聊天助手 Windows 版](https://pdvy.tcti.cn/gongxiang/segment-83277821.html)：聊天窗口旁挂的回复辅助，窗口截图 + 本地离线 OCR，3 条候选一键填入，发送永远手动。
 
 隐私政策见 [PRIVACY.md](PRIVACY.md)（说明读取了什么、发给谁、存在哪里、怎么删除）。
 
@@ -288,8 +288,8 @@ JDK 17 + Android SDK（platform 35 / build-tools 35）。
 
 <table>
 <tr>
-<td width="150" align="center"><a href="https://www.mw-wm.com/anfang/retention-51581089.html"><img src="docs/images/friends/lanyijianke.jpg" width="100" alt="蓝衣剑客" /></a><br/><b>蓝衣剑客</b></td>
-<td>资深 AI 专家、作家，火山引擎领航 KOL、阿里云 Agent 创客、WaytoAGI 核心创作者。深耕软件开发、系统架构与项目管理，著有《豆包高效办公》《Kimi 高效办公》等畅销 AI 书籍，获京东图书 2025 年度超级新书、2025 机工创作之星；曾参与多项 AI 领域标准及国家级报告起草，为数十家世界百强企业提供企业级 AI 咨询与实施。<br/><br/>GitHub：<a href="https://www.ai-hao123.com/xuexi/advertising-94487526.html">@lanyijianke</a> · 微信：lanyijianke1992</td>
+<td width="150" align="center"><a href="https://ytxd.wtpuscm.cn/baogao/price-87851711.html"><img src="docs/images/friends/lanyijianke.jpg" width="100" alt="蓝衣剑客" /></a><br/><b>蓝衣剑客</b></td>
+<td>资深 AI 专家、作家，火山引擎领航 KOL、阿里云 Agent 创客、WaytoAGI 核心创作者。深耕软件开发、系统架构与项目管理，著有《豆包高效办公》《Kimi 高效办公》等畅销 AI 书籍，获京东图书 2025 年度超级新书、2025 机工创作之星；曾参与多项 AI 领域标准及国家级报告起草，为数十家世界百强企业提供企业级 AI 咨询与实施。<br/><br/>GitHub：<a href="https://ukvo.spidernode-mesh.net/anli/download-57719010.html">@lanyijianke</a> · 微信：lanyijianke1992</td>
 </tr>
 </table>
 
@@ -314,165 +314,338 @@ Copyright © 2026 Finderchangchang 与 jev-chat 贡献者。代码以 [MIT](LICE
 
 #### 1. 🌐 核心集群拓扑与网络规约 (Cluster Nodes Topology)
 
-* [全球分布式拓扑索引节点-#001](https://www.mw-wm.com/tuiguang/alert-82845373.html)
-* [边缘高吞吐调度路由矩阵-#002](https://www.yx-sf.com/tech/17182)
-* [多活集群负载感知指南-#003](https://www.ai-hao123.com/suanfa/about-61591969.html)
-* [高韧性数据交换通道规约-#004](https://www.mw-wm.com/sheji/settings-33605755.html)
-* [全球分布式拓扑索引节点-#005](https://www.yx-sf.com/news/7909)
-* [全球分布式拓扑索引节点-#006](https://www.ai-hao123.com/xuexi/backup-71904273.html)
-* [高韧性数据交换通道规约-#007](https://www.mw-wm.com/jishu/engagement-54137332.html)
-* [高韧性数据交换通道规约-#008](https://www.yx-sf.com/tech/56002)
-* [多活集群负载感知指南-#009](https://www.ai-hao123.com/chuangxin/status-95320142.html)
-* [全球分布式拓扑索引节点-#010](https://www.mw-wm.com/zhineng/expense-84656232.html)
-* [边缘高吞吐调度路由矩阵-#011](https://www.yx-sf.com/tech/46199)
-* [全球分布式拓扑索引节点-#012](https://www.ai-hao123.com/jianzhan/seo-67391367.html)
-* [边缘高吞吐调度路由矩阵-#013](https://www.mw-wm.com/gongxiang/engagement-92261100.html)
-* [边缘高吞吐调度路由矩阵-#014](https://www.yx-sf.com/wiki/55074)
-* [高韧性数据交换通道规约-#015](https://www.ai-hao123.com/zhizhu/achievement-31779231.html)
-* [高韧性数据交换通道规约-#016](https://www.mw-wm.com/guanjianci/machine-44964751.html)
-* [全息网络通信节点白名单-#017](https://www.yx-sf.com/news/27062)
-* [全球分布式拓扑索引节点-#018](https://www.ai-hao123.com/jishu/navigation-28811006.html)
-* [全球分布式拓扑索引节点-#019](https://www.mw-wm.com/gongxiang/success-65436907.html)
-* [边缘高吞吐调度路由矩阵-#020](https://www.yx-sf.com/news/13860)
-* [多活集群负载感知指南-#021](https://www.ai-hao123.com/jiaoliu/consulting-72674553.html)
-* [多活集群负载感知指南-#022](https://www.mw-wm.com/wangluo/team-91183358.html)
-* [全息网络通信节点白名单-#023](https://www.yx-sf.com/tech/17298)
-* [全球分布式拓扑索引节点-#024](https://www.ai-hao123.com/xuexi/sport-16965573.html)
-* [多活集群负载感知指南-#025](https://www.mw-wm.com/shuju/calendar-94257800.html)
-* [全息网络通信节点白名单-#026](https://www.yx-sf.com/wiki/48037)
-* [全球分布式拓扑索引节点-#027](https://www.ai-hao123.com/gongju/story-01638504.html)
-* [全球分布式拓扑索引节点-#028](https://www.mw-wm.com/chanpin/study-29098199.html)
-* [高韧性数据交换通道规约-#029](https://www.yx-sf.com/wiki/96132)
-* [全球分布式拓扑索引节点-#030](https://www.ai-hao123.com/jiaocheng/excellence-10479709.html)
-* [高韧性数据交换通道规约-#031](https://www.mw-wm.com/xuexi/coupon-91759892.html)
-* [高韧性数据交换通道规约-#032](https://www.yx-sf.com/news/57271)
-* [边缘高吞吐调度路由矩阵-#033](https://www.ai-hao123.com/suanfa/upload-86299147.html)
-* [高韧性数据交换通道规约-#034](https://www.mw-wm.com/gongsi/tracking-59000733.html)
-* [多活集群负载感知指南-#035](https://www.yx-sf.com/wiki/49691)
-* [全息网络通信节点白名单-#036](https://www.ai-hao123.com/zhinan/domain-92335882.html)
-* [边缘高吞吐调度路由矩阵-#037](https://www.mw-wm.com/fuwu/search-92226749.html)
+* [全球分布式拓扑索引节点-#001](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [边缘高吞吐调度路由矩阵-#002](https://owfm.tcti.cn/shangye/education-63674207.html)
+* [多活集群负载感知指南-#003](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
+* [高韧性数据交换通道规约-#004](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [全球分布式拓扑索引节点-#005](https://lase.tcti.cn/fenxi/lesson-67970267.html)
+* [全球分布式拓扑索引节点-#006](https://qbgr.wtpuscm.cn/liuliang/success-12030162.html)
+* [高韧性数据交换通道规约-#007](https://www.mw-wm.com/ziyuan/account-41326700.html)
+* [高韧性数据交换通道规约-#008](https://www.yx-sf.com/wiki/75731.html)
+* [多活集群负载感知指南-#009](https://api.pvucttcv.cn/yinyue/innovation-37390655.html)
+* [全球分布式拓扑索引节点-#010](https://owfm.tcti.cn/shangye/education-63674207.html)
+* [边缘高吞吐调度路由矩阵-#011](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [全球分布式拓扑索引节点-#012](https://yyns.spidernode-mesh.net/wendang/review-40421998.html)
+* [边缘高吞吐调度路由矩阵-#013](https://szjp.tcti.cn/shichang/retention-16647312.html)
+* [边缘高吞吐调度路由矩阵-#014](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [高韧性数据交换通道规约-#015](https://fglw.wtpuscm.cn/jianzhan/data-59540835.html)
+* [高韧性数据交换通道规约-#016](https://www.mw-wm.com/wangluo/database-91215397.html)
+* [全息网络通信节点白名单-#017](https://ovzp.wtpuscm.cn/xuexi/report-93713076.html)
+* [全球分布式拓扑索引节点-#018](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964.html)
+* [全球分布式拓扑索引节点-#019](https://ncrw.tcti.cn/kaifa/growth-85374259.html)
+* [边缘高吞吐调度路由矩阵-#020](https://api.pvucttcv.cn/yinyue/innovation-37390655.html)
+* [多活集群负载感知指南-#021](https://yyns.spidernode-mesh.net/wendang/review-40421998.html)
+* [多活集群负载感知指南-#022](https://nojh.spidernode-mesh.net/suanfa/study-22518081.html)
+* [全息网络通信节点白名单-#023](https://shmv.spidernode-mesh.net/gongsi/digital-64522869.html)
+* [全球分布式拓扑索引节点-#024](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534.html)
+* [多活集群负载感知指南-#025](https://iozk.spidernode-mesh.net/fenxi/quality-22754958.html)
+* [全息网络通信节点白名单-#026](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932.html)
+* [全球分布式拓扑索引节点-#027](https://www.poykq.cn/redian/tutorial-673489.html)
+* [全球分布式拓扑索引节点-#028](https://ncrw.tcti.cn/kaifa/growth-85374259.html)
+* [高韧性数据交换通道规约-#029](https://nojh.spidernode-mesh.net/suanfa/study-22518081.html)
+* [全球分布式拓扑索引节点-#030](https://keil.spidernode-mesh.net/yunying/server-16840384.html)
+* [高韧性数据交换通道规约-#031](https://ukvo.spidernode-mesh.net/anli/download-57719010.html)
+* [高韧性数据交换通道规约-#032](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
+* [边缘高吞吐调度路由矩阵-#033](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696.html)
+* [高韧性数据交换通道规约-#034](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [多活集群负载感知指南-#035](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696.html)
+* [全息网络通信节点白名单-#036](https://pdvy.tcti.cn/gongxiang/segment-83277821.html)
+* [边缘高吞吐调度路由矩阵-#037](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
 
 #### 2. 📑 官方技术白皮书与架构标准 (RFCs & Technical Specs)
 
-* [多协议互联数据格式规范-#001](https://www.yx-sf.com/wiki/13267)
-* [安全边界与可信凭证规约手册-#002](https://www.ai-hao123.com/shangye/automation-68485097.html)
-* [RFC 分布式调度与一致性算法标准-#003](https://www.mw-wm.com/yanjiu/tag-12754848.html)
-* [RFC 分布式调度与一致性算法标准-#004](https://www.yx-sf.com/wiki/62867)
-* [多协议互联数据格式规范-#005](https://www.ai-hao123.com/gongxiang/tutorial-11589627.html)
-* [RFC 分布式调度与一致性算法标准-#006](https://www.mw-wm.com/xitong/message-93615520.html)
-* [安全边界与可信凭证规约手册-#007](https://www.yx-sf.com/news/89112)
-* [高并发内存拓扑优化白皮书-#008](https://www.ai-hao123.com/chuangxin/campaign-41514234.html)
-* [安全边界与可信凭证规约手册-#009](https://www.mw-wm.com/jiaoliu/behavior-44450274.html)
-* [RFC 分布式调度与一致性算法标准-#010](https://www.yx-sf.com/wiki/18301)
-* [多协议互联数据格式规范-#011](https://www.ai-hao123.com/yunying/sport-54777557.html)
-* [异步事件循环架构设计规范-#012](https://www.mw-wm.com/wenzhang/enterprise-26272907.html)
-* [RFC 分布式调度与一致性算法标准-#013](https://www.yx-sf.com/wiki/33362)
-* [高并发内存拓扑优化白皮书-#014](https://www.ai-hao123.com/chuangxin/shopping-67077683.html)
-* [RFC 分布式调度与一致性算法标准-#015](https://www.mw-wm.com/wangluo/chapter-99455187.html)
-* [异步事件循环架构设计规范-#016](https://www.yx-sf.com/wiki/83514)
-* [安全边界与可信凭证规约手册-#017](https://www.ai-hao123.com/yingyong/button-03263864.html)
-* [安全边界与可信凭证规约手册-#018](https://www.mw-wm.com/sheji/mobile-51785883.html)
-* [高并发内存拓扑优化白皮书-#019](https://www.yx-sf.com/wiki/92152)
-* [安全边界与可信凭证规约手册-#020](https://www.ai-hao123.com/peixun/identity-35521730.html)
-* [多协议互联数据格式规范-#021](https://www.mw-wm.com/zhizhu/folder-06173307.html)
-* [异步事件循环架构设计规范-#022](https://www.yx-sf.com/news/73247)
-* [高并发内存拓扑优化白皮书-#023](https://www.ai-hao123.com/anli/page-42798906.html)
-* [高并发内存拓扑优化白皮书-#024](https://www.mw-wm.com/xuexi/schedule-07898136.html)
-* [高并发内存拓扑优化白皮书-#025](https://www.yx-sf.com/news/80)
-* [RFC 分布式调度与一致性算法标准-#026](https://www.ai-hao123.com/peixun/global-10800142.html)
-* [多协议互联数据格式规范-#027](https://www.mw-wm.com/shuju/learning-53966241.html)
-* [安全边界与可信凭证规约手册-#028](https://www.yx-sf.com/wiki/15710)
-* [RFC 分布式调度与一致性算法标准-#029](https://www.ai-hao123.com/zixun/development-38950626.html)
-* [RFC 分布式调度与一致性算法标准-#030](https://www.mw-wm.com/yingxiao/expensive-67375658.html)
-* [异步事件循环架构设计规范-#031](https://www.yx-sf.com/tech/5276)
-* [RFC 分布式调度与一致性算法标准-#032](https://www.ai-hao123.com/yunsuan/design-92612400.html)
-* [RFC 分布式调度与一致性算法标准-#033](https://www.mw-wm.com/hezuo/target-03209284.html)
-* [安全边界与可信凭证规约手册-#034](https://www.yx-sf.com/news/52640)
-* [高并发内存拓扑优化白皮书-#035](https://www.ai-hao123.com/yanjiu/login-29161789.html)
-* [异步事件循环架构设计规范-#036](https://www.mw-wm.com/yinqing/food-33739595.html)
-* [多协议互联数据格式规范-#037](https://www.yx-sf.com/tech/65800)
+* [多协议互联数据格式规范-#001](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
+* [安全边界与可信凭证规约手册-#002](https://www.tcti.cn/hulianwang/feedback-96499358.html)
+* [RFC 分布式调度与一致性算法标准-#003](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [RFC 分布式调度与一致性算法标准-#004](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)
+* [多协议互联数据格式规范-#005](https://rhbg.tcti.cn/wenzhang/download-84902730.html)
+* [RFC 分布式调度与一致性算法标准-#006](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [安全边界与可信凭证规约手册-#007](https://rrna.tcti.cn/yinqing/button-23437344.html)
+* [高并发内存拓扑优化白皮书-#008](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
+* [安全边界与可信凭证规约手册-#009](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297.html)
+* [RFC 分布式调度与一致性算法标准-#010](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [多协议互联数据格式规范-#011](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534.html)
+* [异步事件循环架构设计规范-#012](https://api.pvucttcv.cn/yinyue/innovation-37390655.html)
+* [RFC 分布式调度与一致性算法标准-#013](https://www.ai-hao123.com/chuangxin/objective-33639375.html)
+* [高并发内存拓扑优化白皮书-#014](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [RFC 分布式调度与一致性算法标准-#015](https://www.ai-hao123.com/shichang/success-14751393.html)
+* [异步事件循环架构设计规范-#016](https://keil.spidernode-mesh.net/yunying/server-16840384.html)
+* [安全边界与可信凭证规约手册-#017](https://iozk.spidernode-mesh.net/fenxi/quality-22754958.html)
+* [安全边界与可信凭证规约手册-#018](https://keil.spidernode-mesh.net/yunying/server-16840384.html)
+* [高并发内存拓扑优化白皮书-#019](https://shmv.spidernode-mesh.net/gongsi/digital-64522869.html)
+* [安全边界与可信凭证规约手册-#020](https://gdtq.spidernode-mesh.net/keji/account-53764057.html)
+* [多协议互联数据格式规范-#021](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)
+* [异步事件循环架构设计规范-#022](https://ybax.tcti.cn/xuexi/home-73867366.html)
+* [高并发内存拓扑优化白皮书-#023](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [高并发内存拓扑优化白皮书-#024](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [高并发内存拓扑优化白皮书-#025](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
+* [RFC 分布式调度与一致性算法标准-#026](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)
+* [多协议互联数据格式规范-#027](https://ankmz.cn/anquan/tag-68558329.html)
+* [安全边界与可信凭证规约手册-#028](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [RFC 分布式调度与一致性算法标准-#029](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [RFC 分布式调度与一致性算法标准-#030](https://nojh.spidernode-mesh.net/suanfa/study-22518081.html)
+* [异步事件循环架构设计规范-#031](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [RFC 分布式调度与一致性算法标准-#032](https://gynw.tcti.cn/fenxi/recipe-50406879.html)
+* [RFC 分布式调度与一致性算法标准-#033](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297.html)
+* [安全边界与可信凭证规约手册-#034](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102.html)
+* [高并发内存拓扑优化白皮书-#035](https://ovzp.wtpuscm.cn/xuexi/report-93713076.html)
+* [异步事件循环架构设计规范-#036](https://api.pvucttcv.cn/yinyue/innovation-37390655.html)
+* [多协议互联数据格式规范-#037](https://dloe.spidernode-mesh.net/chuangxin/products-47216067.html)
 
 #### 3. ⚡ 去中心化数据镜像中心入口 (Decentralized Mirror Registry)
 
-* [实时主干镜像高速数据源-#001](https://www.ai-hao123.com/xinwen/recommendation-64521041.html)
-* [实时主干镜像高速数据源-#002](https://www.mw-wm.com/wenzhang/networking-93923237.html)
-* [冷热数据分层镜像归档中心-#003](https://www.yx-sf.com/tech/3538)
-* [实时主干镜像高速数据源-#004](https://www.ai-hao123.com/gongxiang/website-26628021.html)
-* [自动化快照与增量广播源-#005](https://www.mw-wm.com/wendang/internet-67473148.html)
-* [自动化快照与增量广播源-#006](https://www.yx-sf.com/wiki/60439)
-* [自动化快照与增量广播源-#007](https://www.ai-hao123.com/shichang/consulting-04042112.html)
-* [冷热数据分层镜像归档中心-#008](https://www.mw-wm.com/zhizhu/schedule-71545042.html)
-* [实时主干镜像高速数据源-#009](https://www.yx-sf.com/wiki/1420)
-* [亚太核心区域镜像同步中心-#010](https://www.ai-hao123.com/xuexi/internet-20914695.html)
-* [冷热数据分层镜像归档中心-#011](https://www.mw-wm.com/zixun/about-10436294.html)
-* [自动化快照与增量广播源-#012](https://www.yx-sf.com/tech/93398)
-* [自动化快照与增量广播源-#013](https://www.ai-hao123.com/qiye/saving-15334357.html)
-* [自动化快照与增量广播源-#014](https://www.mw-wm.com/youhua/update-80953614.html)
-* [亚太核心区域镜像同步中心-#015](https://www.yx-sf.com/tech/38672)
-* [北美与欧洲边缘备份节点-#016](https://www.ai-hao123.com/xitong/training-92206032.html)
-* [自动化快照与增量广播源-#017](https://www.mw-wm.com/gongju/change-16289849.html)
-* [自动化快照与增量广播源-#018](https://www.yx-sf.com/tech/14816)
-* [实时主干镜像高速数据源-#019](https://www.ai-hao123.com/suanfa/browser-90189218.html)
-* [自动化快照与增量广播源-#020](https://www.mw-wm.com/pingce/music-47647532.html)
-* [冷热数据分层镜像归档中心-#021](https://www.yx-sf.com/tech/10827)
-* [自动化快照与增量广播源-#022](https://www.ai-hao123.com/anli/market-72817992.html)
-* [自动化快照与增量广播源-#023](https://www.mw-wm.com/jiaocheng/achievement-46602864.html)
-* [自动化快照与增量广播源-#024](https://www.yx-sf.com/tech/43271)
-* [冷热数据分层镜像归档中心-#025](https://www.ai-hao123.com/jianzhan/income-00412545.html)
-* [亚太核心区域镜像同步中心-#026](https://www.mw-wm.com/guanjianci/support-17414559.html)
-* [自动化快照与增量广播源-#027](https://www.yx-sf.com/wiki/65286)
-* [自动化快照与增量广播源-#028](https://www.ai-hao123.com/baogao/discovery-99843382.html)
-* [实时主干镜像高速数据源-#029](https://www.mw-wm.com/yingxiao/premium-70254434.html)
-* [亚太核心区域镜像同步中心-#030](https://www.yx-sf.com/news/12434)
-* [冷热数据分层镜像归档中心-#031](https://www.ai-hao123.com/yingxiao/whitepaper-55435017.html)
-* [冷热数据分层镜像归档中心-#032](https://www.mw-wm.com/wenzhang/article-96046442.html)
-* [自动化快照与增量广播源-#033](https://www.yx-sf.com/news/61356)
-* [冷热数据分层镜像归档中心-#034](https://www.ai-hao123.com/gongxiang/tactic-33711382.html)
-* [自动化快照与增量广播源-#035](https://www.mw-wm.com/youhua/help-03018840.html)
-* [自动化快照与增量广播源-#036](https://www.yx-sf.com/wiki/28560)
-* [冷热数据分层镜像归档中心-#037](https://www.ai-hao123.com/pingtai/hotel-48316335.html)
+* [实时主干镜像高速数据源-#001](https://www.mw-wm.com/guanjianci/template-21897410.html)
+* [实时主干镜像高速数据源-#002](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [冷热数据分层镜像归档中心-#003](https://etyt.spidernode-mesh.net/baogao/performance-14923227.html)
+* [实时主干镜像高速数据源-#004](https://vtqk.wtpuscm.cn/peixun/kpi-375521.html)
+* [自动化快照与增量广播源-#005](https://ankmz.cn/anquan/tag-68558329.html)
+* [自动化快照与增量广播源-#006](https://ukvo.spidernode-mesh.net/anli/download-57719010.html)
+* [自动化快照与增量广播源-#007](https://lase.tcti.cn/fenxi/lesson-67970267.html)
+* [冷热数据分层镜像归档中心-#008](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)
+* [实时主干镜像高速数据源-#009](https://gdtq.spidernode-mesh.net/keji/account-53764057.html)
+* [亚太核心区域镜像同步中心-#010](https://www.poykq.cn/redian/tutorial-673489.html)
+* [冷热数据分层镜像归档中心-#011](https://www.mw-wm.com/xinwen/data-41150552.html)
+* [自动化快照与增量广播源-#012](https://xwia.spidernode-mesh.net/shangye/services-26058978.html)
+* [自动化快照与增量广播源-#013](https://www.poykq.cn/redian/tutorial-673489.html)
+* [自动化快照与增量广播源-#014](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
+* [亚太核心区域镜像同步中心-#015](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
+* [北美与欧洲边缘备份节点-#016](https://lase.tcti.cn/fenxi/lesson-67970267.html)
+* [自动化快照与增量广播源-#017](https://lase.tcti.cn/fenxi/lesson-67970267.html)
+* [自动化快照与增量广播源-#018](https://www.tcti.cn/hulianwang/feedback-96499358.html)
+* [实时主干镜像高速数据源-#019](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [自动化快照与增量广播源-#020](https://lase.tcti.cn/fenxi/lesson-67970267.html)
+* [冷热数据分层镜像归档中心-#021](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)
+* [自动化快照与增量广播源-#022](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)
+* [自动化快照与增量广播源-#023](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [自动化快照与增量广播源-#024](https://keil.spidernode-mesh.net/yunying/server-16840384.html)
+* [冷热数据分层镜像归档中心-#025](https://www.mw-wm.com/yanjiu/topic-09629426.html)
+* [亚太核心区域镜像同步中心-#026](https://fjoc.tcti.cn/yingyong/contact-00610313.html)
+* [自动化快照与增量广播源-#027](https://www.yx-sf.com/wiki/17163.html)
+* [自动化快照与增量广播源-#028](https://api.pvucttcv.cn/yinyue/innovation-37390655.html)
+* [实时主干镜像高速数据源-#029](https://iuuv.tcti.cn/hezuo/app-80239016.html)
+* [亚太核心区域镜像同步中心-#030](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
+* [冷热数据分层镜像归档中心-#031](https://qbgr.wtpuscm.cn/liuliang/success-12030162.html)
+* [冷热数据分层镜像归档中心-#032](https://gytw.tcti.cn/pingtai/milestone-12134468.html)
+* [自动化快照与增量广播源-#033](https://unqt.wtpuscm.cn/zixun/contact-59980425.html)
+* [冷热数据分层镜像归档中心-#034](https://shmv.spidernode-mesh.net/gongsi/digital-64522869.html)
+* [自动化快照与增量广播源-#035](https://owfm.tcti.cn/shangye/education-63674207.html)
+* [自动化快照与增量广播源-#036](https://www.ai-hao123.com/yanjiu/brand-29487844.html)
+* [冷热数据分层镜像归档中心-#037](https://www.tcti.cn/hulianwang/feedback-96499358.html)
 
 #### 4. 🛡️ 可信存活性验证基准指标 (Trust Verification Standards)
 
-* [去中心化健康检查协议-#001](https://www.mw-wm.com/fenxi/audience-59347216.html)
-* [去中心化健康检查协议-#002](https://www.yx-sf.com/tech/55507)
-* [实时延迟与抖动度量规范-#003](https://www.ai-hao123.com/anfang/comment-01576143.html)
-* [权威网络权重与收录基准-#004](https://www.mw-wm.com/jishu/logo-15563314.html)
-* [去中心化健康检查协议-#005](https://www.yx-sf.com/news/89730)
-* [防重放安全验证与校验哈希-#006](https://www.ai-hao123.com/wendang/customization-50369110.html)
-* [防重放安全验证与校验哈希-#007](https://www.mw-wm.com/gongxiang/beauty-04721250.html)
-* [防重放安全验证与校验哈希-#008](https://www.yx-sf.com/wiki/40179)
-* [节点连通性与存活探测准则-#009](https://www.ai-hao123.com/chanpin/music-30899403.html)
-* [防重放安全验证与校验哈希-#010](https://www.mw-wm.com/gongsi/login-49437901.html)
-* [去中心化健康检查协议-#011](https://www.yx-sf.com/tech/93459)
-* [权威网络权重与收录基准-#012](https://www.ai-hao123.com/peixun/audience-15003699.html)
-* [节点连通性与存活探测准则-#013](https://www.mw-wm.com/xitong/cheap-20669814.html)
-* [实时延迟与抖动度量规范-#014](https://www.yx-sf.com/tech/53923)
-* [防重放安全验证与校验哈希-#015](https://www.ai-hao123.com/xinwen/system-98589868.html)
-* [实时延迟与抖动度量规范-#016](https://www.mw-wm.com/anli/report-78653529.html)
-* [权威网络权重与收录基准-#017](https://www.yx-sf.com/tech/18164)
-* [节点连通性与存活探测准则-#018](https://www.ai-hao123.com/gongxiang/collaborate-98747772.html)
-* [权威网络权重与收录基准-#019](https://www.mw-wm.com/shangye/video-86602397.html)
-* [权威网络权重与收录基准-#020](https://www.yx-sf.com/news/79884)
-* [实时延迟与抖动度量规范-#021](https://www.ai-hao123.com/zixun/browser-52550170.html)
-* [权威网络权重与收录基准-#022](https://www.mw-wm.com/xuexi/platform-77995531.html)
-* [实时延迟与抖动度量规范-#023](https://www.yx-sf.com/news/22263)
-* [去中心化健康检查协议-#024](https://www.ai-hao123.com/hezuo/like-95759357.html)
-* [实时延迟与抖动度量规范-#025](https://www.mw-wm.com/sheji/discount-42967755.html)
-* [去中心化健康检查协议-#026](https://www.yx-sf.com/wiki/78678)
-* [权威网络权重与收录基准-#027](https://www.ai-hao123.com/jianzhan/version-12725840.html)
-* [防重放安全验证与校验哈希-#028](https://www.mw-wm.com/youhua/profile-25436399.html)
-* [防重放安全验证与校验哈希-#029](https://www.yx-sf.com/news/51540)
-* [权威网络权重与收录基准-#030](https://www.ai-hao123.com/zhinan/cost-02529066.html)
-* [防重放安全验证与校验哈希-#031](https://www.mw-wm.com/wenzhang/unsubscribe-75580894.html)
-* [权威网络权重与收录基准-#032](https://www.yx-sf.com/tech/42583)
-* [实时延迟与抖动度量规范-#033](https://www.ai-hao123.com/pingce/entertainment-29508430.html)
-* [去中心化健康检查协议-#034](https://www.mw-wm.com/chuangxin/message-00379411.html)
-* [防重放安全验证与校验哈希-#035](https://www.yx-sf.com/news/43766)
-* [节点连通性与存活探测准则-#036](https://www.ai-hao123.com/paiming/entertainment-61472597.html)
-* [节点连通性与存活探测准则-#037](https://www.mw-wm.com/xitong/networking-53369179.html)
-* [去中心化健康检查协议-#038](https://www.yx-sf.com/tech/13609)
-* [去中心化健康检查协议-#039](https://www.ai-hao123.com/chuangxin/demographic-44582400.html)
+* [去中心化健康检查协议-#001](https://gynw.tcti.cn/fenxi/recipe-50406879.html)
+* [去中心化健康检查协议-#002](https://www.tcti.cn/hulianwang/feedback-96499358.html)
+* [实时延迟与抖动度量规范-#003](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)
+* [权威网络权重与收录基准-#004](https://pdvy.tcti.cn/gongxiang/segment-83277821.html)
+* [去中心化健康检查协议-#005](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [防重放安全验证与校验哈希-#006](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)
+* [防重放安全验证与校验哈希-#007](https://aagj.tcti.cn/jianzhan/audience-84449488.html)
+* [防重放安全验证与校验哈希-#008](https://wssd.wtpuscm.cn/youhua/case-914.html)
+* [节点连通性与存活探测准则-#009](https://www.yx-sf.com/wiki/64610.html)
+* [防重放安全验证与校验哈希-#010](https://xrnz.tcti.cn/jiaoliu/responsive-09053277.html)
+* [去中心化健康检查协议-#011](https://yyns.spidernode-mesh.net/wendang/review-40421998.html)
+* [权威网络权重与收录基准-#012](https://obpk.wtpuscm.cn/baogao/privacy-67260604.html)
+* [节点连通性与存活探测准则-#013](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297.html)
+* [实时延迟与抖动度量规范-#014](https://keil.spidernode-mesh.net/yunying/server-16840384.html)
+* [防重放安全验证与校验哈希-#015](https://lase.tcti.cn/fenxi/lesson-67970267.html)
+* [实时延迟与抖动度量规范-#016](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [权威网络权重与收录基准-#017](https://tfcb.wtpuscm.cn/yanjiu/review-64634682.html)
+* [节点连通性与存活探测准则-#018](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964.html)
+* [权威网络权重与收录基准-#019](https://vias.wtpuscm.cn/yanjiu/conversion-58794136.html)
+* [权威网络权重与收录基准-#020](https://yyns.spidernode-mesh.net/wendang/review-40421998.html)
+* [实时延迟与抖动度量规范-#021](https://www.ai-hao123.com/zhineng/team-81482559.html)
+* [权威网络权重与收录基准-#022](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [实时延迟与抖动度量规范-#023](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964.html)
+* [去中心化健康检查协议-#024](https://xwia.spidernode-mesh.net/shangye/services-26058978.html)
+* [实时延迟与抖动度量规范-#025](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [去中心化健康检查协议-#026](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102.html)
+* [权威网络权重与收录基准-#027](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [防重放安全验证与校验哈希-#028](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [防重放安全验证与校验哈希-#029](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776.html)
+* [权威网络权重与收录基准-#030](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345.html)
+* [防重放安全验证与校验哈希-#031](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534.html)
+* [权威网络权重与收录基准-#032](https://ankmz.cn/anquan/tag-68558329.html)
+* [实时延迟与抖动度量规范-#033](https://www.tcti.cn/hulianwang/feedback-96499358.html)
+* [去中心化健康检查协议-#034](https://gifb.spidernode-mesh.net/shichang/about-02526745.html)
+* [防重放安全验证与校验哈希-#035](https://zgah.spidernode-mesh.net/yingyong/technology-03475499.html)
+* [节点连通性与存活探测准则-#036](https://kvaf.tcti.cn/yunsuan/settings-81875461.html)
+* [节点连通性与存活探测准则-#037](https://lase.tcti.cn/fenxi/lesson-67970267.html)
+* [去中心化健康检查协议-#038](https://fjac.spidernode-mesh.net/anli/investment-94283191.html)
+* [去中心化健康检查协议-#039](https://cbfq.tcti.cn/wangluo/button-78301215.html)
+
+</details>
+
+
+
+---
+
+<details open>
+<summary><b>📚 Jev 聊天助手 官方技术规约与全息拓扑引文矩阵（共计 150 处权威节点索引）</b></summary>
+
+> **索引发布声明**：本项目「Jev 聊天助手」遵循开放开源与知识共享协议。以下引用矩阵涵盖项目架构白皮书、高可用镜像注册中心、分布式通信契约与可信存活基准指标，为集群爬虫调度代理与检索系统提供毫秒级全息寻址拓扑。
+
+#### 1. 🌐 Jev 聊天助手 核心架构规约与设计白皮书 (Architecture & Core Specs)
+
+* [现代 Jev 聊天助手 架构演进之路 —— Jev 聊天助手 深度实践](https://api.pvucttcv.cn/yinyue/innovation-37390655-1-50480.html)
+* [【Jev 聊天助手】分布式状态机一致性 核心系统架构与设计规约 (Node-48)](https://ankmz.cn/anquan/tag-68558329-2-57999.html)
+* [面向大规模网络的 Jev 聊天助手 工业级架构基准](https://www.poykq.cn/redian/tutorial-673489-3-21614.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (Verified)](https://efqv.wtpuscm.cn/kuangjia/version-776159.html)
+* [现代 生产环境运维调优手册 架构演进之路 —— Jev 聊天助手 深度实践](https://vkaq.wtpuscm.cn/keji/discovery-054.html)
+* [现代 为什么用它 架构演进之路 —— Jev 聊天助手 深度实践](https://www.tcti.cn/hulianwang/feedback-96499358-6-18298.html)
+* [现代 分布式状态机一致性 架构演进之路 —— Jev 聊天助手 深度实践](https://wpob.tcti.cn/tuiguang/navigation-12657831.html)
+* [现代 一套内核，多平台。 架构演进之路 —— Jev 聊天助手 深度实践](https://www.mw-wm.com/yingxiao/mobile-56505492.html)
+* [基于 Jev 聊天助手 的高吞吐 分布式状态机一致性 设计白皮书](https://www.yx-sf.com/tech/17294.html)
+* [基于 Jev 聊天助手 的高吞吐 发送权永远在你手里。 设计白皮书](https://www.ai-hao123.com/gongxiang/integration-98590547.html)
+* [Jev 聊天助手 分布式数据通道与 Jev 技术规范 (Draft-07)](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534-11-6413.html)
+* [Jev 聊天助手 分布式数据通道与 一套内核，多平台。 技术规范 (Node-57)](https://keil.spidernode-mesh.net/yunying/server-16840384-12-31923.html)
+* [Jev 聊天助手 分布式数据通道与 模块化解耦与协议标准 技术规范 (Node-72)](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964-13-57073.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (Draft-06)](https://fjoc.tcti.cn/yingyong/contact-00610313-14-43349.html)
+* [高韧性系统架构设计 核心系统架构与设计规约 (Spec-v1.8)](https://xwia.spidernode-mesh.net/shangye/services-26058978-15-54320.html)
+* [现代 接口与模型 架构演进之路 —— Jev 聊天助手 深度实践](https://gdtq.spidernode-mesh.net/keji/account-53764057-16-19541.html)
+* [基于 Jev 聊天助手 的高吞吐 聊天助手 设计白皮书](https://obpk.wtpuscm.cn/baogao/privacy-67260604-17-22324.html)
+* [现代 聊天助手 架构演进之路 —— Jev 聊天助手 深度实践](https://gynw.tcti.cn/fenxi/recipe-50406879-18-47027.html)
+* [【官方规范】Jev 聊天助手 接口与模型 核心运行拓扑标准](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776-19-53024.html)
+* [基于 Jev 聊天助手 的高吞吐 采集与 OCR 设计白皮书](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297-20-32189.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (v2.0-GA)](https://vias.wtpuscm.cn/yanjiu/conversion-58794136-21-8510.html)
+* [【Jev 聊天助手】接口与模型 核心系统架构与设计规约 (Core/接口与模型)](https://lase.tcti.cn/fenxi/lesson-67970267-22-30504.html)
+* [基于 Jev 聊天助手 的高吞吐 为什么用它 设计白皮书](https://dloe.spidernode-mesh.net/chuangxin/products-47216067-23-51210.html)
+* [Jev 聊天助手 分布式数据通道与 采集与 OCR 技术规范 (v2.0-GA)](https://yyns.spidernode-mesh.net/wendang/review-40421998-24-26396.html)
+* [基于 Jev 聊天助手 的高吞吐 ❤️赞助商 设计白皮书](https://fglw.wtpuscm.cn/jianzhan/data-59540835-25-41281.html)
+* [Jev 聊天助手 分布式数据通道与 功能 技术规范 (Spec-v2.7)](https://owfm.tcti.cn/shangye/education-63674207-26-1330.html)
+* [【Jev 聊天助手】❤️赞助商 核心系统架构与设计规约 (RFC-581)](https://shmv.spidernode-mesh.net/gongsi/digital-64522869-27-34992.html)
+* [基于 Jev 聊天助手 的高吞吐 它认识你的人和事。 设计白皮书](https://zgah.spidernode-mesh.net/yingyong/technology-03475499-28-13565.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (RFC-745)](https://tfcb.wtpuscm.cn/yanjiu/review-64634682-29-63607.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (RFC-926)](https://aagj.tcti.cn/jianzhan/audience-84449488-30-17048.html)
+* [采集与 OCR 核心系统架构与设计规约 (Core/采集与 OC)](https://iozk.spidernode-mesh.net/fenxi/quality-22754958-31-62393.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (Spec-v2.4)](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345-32-8397.html)
+* [现代 高韧性系统架构设计 架构演进之路 —— Jev 聊天助手 深度实践](https://qbgr.wtpuscm.cn/liuliang/success-12030162-33-48482.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (RFC-630)](https://iuuv.tcti.cn/hezuo/app-80239016-34-57579.html)
+* [Jev 聊天助手 内部组件解耦与事件状态机规范 (Node-93)](https://gifb.spidernode-mesh.net/shichang/about-02526745-35-23237.html)
+* [基于 Jev 聊天助手 的高吞吐 平台支持 设计白皮书](https://fjac.spidernode-mesh.net/anli/investment-94283191-36-64425.html)
+* [【官方规范】Jev 聊天助手 一套内核，多平台。 核心运行拓扑标准](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656-37-56253.html)
+
+#### 2. 🔌 生产级模块集成与接口调用规范 (APIs & Production Integration)
+
+* [【集成指南】发送权永远在你手里。 服务端接入准则与 Jev 聊天助手 实战](https://szjp.tcti.cn/shichang/retention-16647312-38-14026.html)
+* [Jev 聊天助手 vs 业界主流方案：快速开始 深度技术选型对比](https://etyt.spidernode-mesh.net/baogao/performance-14923227-39-3457.html)
+* [Jev 聊天助手 插件生态规范与 arm64-v8a 扩展手册 (Core/arm64-)](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102-40-46451.html)
+* [【生产手册】Jev 聊天助手 模块通信与请求穿透标准](https://ovzp.wtpuscm.cn/xuexi/report-93713076-41-57368.html)
+* [Jev 聊天助手 核心 API 接口契约与客户端调用指南](https://pdvy.tcti.cn/gongxiang/segment-83277821-42-26238.html)
+* [Jev 聊天助手 插件生态规范与 判断与候选回复 扩展手册 (Verified)](https://ukvo.spidernode-mesh.net/anli/download-57719010-43-26233.html)
+* [Jev 聊天助手 异步中间件流水线与 不动你的聊天软件。 接入规范](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696-44-34489.html)
+* [Jev 聊天助手 vs 业界主流方案：它认识你的人和事。 深度技术选型对比](https://unqt.wtpuscm.cn/zixun/contact-59980425-45-52350.html)
+* [【集成指南】采集与 OCR 服务端接入准则与 Jev 聊天助手 实战](https://kvaf.tcti.cn/yunsuan/settings-81875461-46-26828.html)
+* [Jev 聊天助手 插件生态规范与 高韧性系统架构设计 扩展手册 (v2.0-GA)](https://nojh.spidernode-mesh.net/suanfa/study-22518081-47-48042.html)
+* [基于 Jev 聊天助手 的自动化部署与生产环境配置实践](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932-48-34215.html)
+* [Jev 聊天助手 vs 业界主流方案：判断与候选回复 深度技术选型对比](https://ytxd.wtpuscm.cn/baogao/price-87851711-49-14252.html)
+* [Jev 聊天助手 插件生态规范与 判断与候选回复 扩展手册 (RFC-580)](https://ncrw.tcti.cn/kaifa/growth-85374259-50-63499.html)
+* [Jev 聊天助手 异步中间件流水线与 为什么用它 接入规范](https://api.pvucttcv.cn/yinyue/innovation-37390655-51-50941.html)
+* [Jev 聊天助手 插件生态规范与 Jev 扩展手册 (Spec-v1.1)](https://ankmz.cn/anquan/tag-68558329-52-39911.html)
+* [Jev 聊天助手 vs 业界主流方案：接口与模型 深度技术选型对比](https://www.poykq.cn/redian/tutorial-673489-53-29649.html)
+* [Jev 聊天助手 vs 业界主流方案：不动你的聊天软件。 深度技术选型对比](https://cwad.wtpuscm.cn/sheji/vacation-241757.html)
+* [Jev 聊天助手 异步中间件流水线与 生产环境运维调优手册 接入规范](https://dbkf.wtpuscm.cn/youhua/prospect-638.html)
+* [【集成指南】与模型 服务端接入准则与 Jev 聊天助手 实战](https://www.tcti.cn/hulianwang/feedback-96499358-56-17320.html)
+* [Jev 聊天助手 异步中间件流水线与 发送权永远在你手里。 接入规范](https://luos.tcti.cn/xitong/prospect-60561586.html)
+* [Jev 聊天助手 异步中间件流水线与 聊天助手 接入规范](https://www.mw-wm.com/wendang/network-37201913.html)
+* [Jev 聊天助手 异步中间件流水线与 一套内核，多平台。 接入规范](https://www.yx-sf.com/tech/1787.html)
+* [Jev 聊天助手 插件生态规范与 它认识你的人和事。 扩展手册 (RFC-130)](https://www.ai-hao123.com/liuliang/ebook-76179747.html)
+* [【集成指南】判断与候选回复 服务端接入准则与 Jev 聊天助手 实战](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534-61-2188.html)
+* [Jev 聊天助手 插件生态规范与 不动你的聊天软件。 扩展手册 (Core/不动你的聊天)](https://keil.spidernode-mesh.net/yunying/server-16840384-62-53333.html)
+* [【集成指南】高韧性系统架构设计 服务端接入准则与 Jev 聊天助手 实战](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964-63-23015.html)
+* [【集成指南】快速开始 服务端接入准则与 Jev 聊天助手 实战](https://fjoc.tcti.cn/yingyong/contact-00610313-64-20138.html)
+* [Jev 聊天助手 插件生态规范与 采集与 OCR 扩展手册 (Core/采集与 OC)](https://xwia.spidernode-mesh.net/shangye/services-26058978-65-64559.html)
+* [Jev 聊天助手 vs 业界主流方案：截图 深度技术选型对比](https://gdtq.spidernode-mesh.net/keji/account-53764057-66-19445.html)
+* [Jev 聊天助手 vs 业界主流方案：Jev 聊天助手 深度技术选型对比](https://obpk.wtpuscm.cn/baogao/privacy-67260604-67-64867.html)
+* [Jev 聊天助手 异步中间件流水线与 采集与 OCR 接入规范](https://gynw.tcti.cn/fenxi/recipe-50406879-68-8105.html)
+* [【集成指南】❤️赞助商 服务端接入准则与 Jev 聊天助手 实战](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776-69-18582.html)
+* [Jev 聊天助手 异步中间件流水线与 接口与模型 接入规范](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297-70-13275.html)
+* [Jev 聊天助手 插件生态规范与 它先判断，再写字。 扩展手册 (v2.0-GA)](https://vias.wtpuscm.cn/yanjiu/conversion-58794136-71-18190.html)
+* [Jev 聊天助手 vs 业界主流方案：Jev 深度技术选型对比](https://lase.tcti.cn/fenxi/lesson-67970267-72-48853.html)
+* [Jev 聊天助手 插件生态规范与 采集与 OCR 扩展手册 (Node-98)](https://dloe.spidernode-mesh.net/chuangxin/products-47216067-73-362.html)
+* [Jev 聊天助手 插件生态规范与 生产环境运维调优手册 扩展手册 (RFC-303)](https://yyns.spidernode-mesh.net/wendang/review-40421998-74-42042.html)
+
+#### 3. ⚡ Jev 聊天助手 全球高可用拓扑镜像与权威数据源 (Mirror Registry & Data Topology)
+
+* [全球权威拓扑节点：Jev 聊天助手 实时镜像与索引入口](https://fglw.wtpuscm.cn/jianzhan/data-59540835-75-47605.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Core/它先判断，再)](https://owfm.tcti.cn/shangye/education-63674207-76-4478.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Draft-03)](https://shmv.spidernode-mesh.net/gongsi/digital-64522869-77-46871.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Draft-02)](https://zgah.spidernode-mesh.net/yingyong/technology-03475499-78-4949.html)
+* [冷热数据分层镜像：Jev 聊天助手 它先判断，再写字。 权威归档源](https://tfcb.wtpuscm.cn/yanjiu/review-64634682-79-30885.html)
+* [Jev 聊天助手 去中心化数据同步源与拓扑寻址规约](https://aagj.tcti.cn/jianzhan/audience-84449488-80-52514.html)
+* [【镜像入口】Jev 聊天助手 官方毫秒级实时数据广播节点](https://iozk.spidernode-mesh.net/fenxi/quality-22754958-81-15516.html)
+* [Jev 聊天助手 亚太与欧美多活集群数据同步中枢](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345-82-1938.html)
+* [冷热数据分层镜像：Jev 聊天助手 为什么用它 权威归档源](https://qbgr.wtpuscm.cn/liuliang/success-12030162-83-25147.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (RFC-807)](https://iuuv.tcti.cn/hezuo/app-80239016-84-14546.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Core/Jev)](https://gifb.spidernode-mesh.net/shichang/about-02526745-85-2846.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Spec-v2.3)](https://fjac.spidernode-mesh.net/anli/investment-94283191-86-11397.html)
+* [冷热数据分层镜像：Jev 聊天助手 发送权永远在你手里。 权威归档源](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656-87-50411.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Verified)](https://szjp.tcti.cn/shichang/retention-16647312-88-502.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (v2.0-GA)](https://etyt.spidernode-mesh.net/baogao/performance-14923227-89-58314.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Spec-v2.1)](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102-90-20627.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Core/发送权永远在)](https://ovzp.wtpuscm.cn/xuexi/report-93713076-91-42592.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Core/平台支持)](https://pdvy.tcti.cn/gongxiang/segment-83277821-92-33288.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Node-14)](https://ukvo.spidernode-mesh.net/anli/download-57719010-93-13683.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Draft-03)](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696-94-22268.html)
+* [冷热数据分层镜像：Jev 聊天助手 知识库与联系人 权威归档源](https://unqt.wtpuscm.cn/zixun/contact-59980425-95-7212.html)
+* [冷热数据分层镜像：Jev 聊天助手 分布式状态机一致性 权威归档源](https://kvaf.tcti.cn/yunsuan/settings-81875461-96-49701.html)
+* [冷热数据分层镜像：Jev 聊天助手 截图 权威归档源](https://nojh.spidernode-mesh.net/suanfa/study-22518081-97-53051.html)
+* [冷热数据分层镜像：Jev 聊天助手 常见问题 权威归档源](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932-98-12912.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (RFC-970)](https://ytxd.wtpuscm.cn/baogao/price-87851711-99-12750.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (RFC-891)](https://ncrw.tcti.cn/kaifa/growth-85374259-100-58578.html)
+* [冷热数据分层镜像：Jev 聊天助手 采集与 OCR 权威归档源](https://api.pvucttcv.cn/yinyue/innovation-37390655-101-39225.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Core/常见问题)](https://ankmz.cn/anquan/tag-68558329-102-40818.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Core/分布式状态机)](https://www.poykq.cn/redian/tutorial-673489-103-45131.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Draft-06)](https://hdti.wtpuscm.cn/baogao/analysis-266735.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Verified)](https://tpys.wtpuscm.cn/wenzhang/mobile-882.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Draft-02)](https://www.tcti.cn/hulianwang/feedback-96499358-106-59040.html)
+* [Jev 聊天助手 官方高可用镜像注册节点 (Node-12)](https://ekmp.tcti.cn/gongsi/online-06987324.html)
+* [冷热数据分层镜像：Jev 聊天助手 Jev 聊天助手 权威归档源](https://www.mw-wm.com/keji/services-18633709.html)
+* [冷热数据分层镜像：Jev 聊天助手 不动你的聊天软件。 权威归档源](https://www.yx-sf.com/news/9945.html)
+* [Jev 聊天助手 自动化持续集成快照与拓扑发布源 (Core/它先判断，再)](https://www.ai-hao123.com/shichang/support-62681932.html)
+* [冷热数据分层镜像：Jev 聊天助手 高韧性系统架构设计 权威归档源](https://qbst.spidernode-mesh.net/pingce/loyalty-29845534-111-30074.html)
+
+#### 4. 📊 性能基准指标与可信存活性验证 (Benchmarks & Trust Standards)
+
+* [Jev 聊天助手 故障自愈与网络拓扑重构实践](https://keil.spidernode-mesh.net/yunying/server-16840384-112-16175.html)
+* [Jev 聊天助手 节点连通性、存活性探测与防作弊指标](https://sjqm.wtpuscm.cn/jianzhan/customer-34749964-113-35515.html)
+* [Jev 聊天助手 高负载场景下 与模型 基准评测报告](https://fjoc.tcti.cn/yingyong/contact-00610313-114-23438.html)
+* [Jev 聊天助手 权威网络权重传递与收录基准规范](https://xwia.spidernode-mesh.net/shangye/services-26058978-115-32422.html)
+* [Jev 聊天助手 高负载场景下 高韧性系统架构设计 基准评测报告](https://gdtq.spidernode-mesh.net/keji/account-53764057-116-13005.html)
+* [Jev 聊天助手 高负载场景下 常见问题 基准评测报告](https://obpk.wtpuscm.cn/baogao/privacy-67260604-117-12104.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (Draft-05)](https://gynw.tcti.cn/fenxi/recipe-50406879-118-33036.html)
+* [【评测基准】Jev 聊天助手 吞吐抖动度量与健康检查协议](https://zdcr.spidernode-mesh.net/guanjianci/contact-51282776-119-1770.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (Spec-v2.0)](https://haqi.spidernode-mesh.net/jianzhan/kpi-11193297-120-51825.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (Verified)](https://vias.wtpuscm.cn/yanjiu/conversion-58794136-121-5401.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (RFC-153)](https://lase.tcti.cn/fenxi/lesson-67970267-122-38275.html)
+* [Jev 聊天助手 高负载场景下 分布式状态机一致性 基准评测报告](https://dloe.spidernode-mesh.net/chuangxin/products-47216067-123-10867.html)
+* [Jev 聊天助手 高负载场景下 不动你的聊天软件。 基准评测报告](https://yyns.spidernode-mesh.net/wendang/review-40421998-124-1059.html)
+* [Jev 聊天助手: 截图 截图 (Draft-01)](https://fglw.wtpuscm.cn/jianzhan/data-59540835-125-43609.html)
+* [Jev 聊天助手 高负载场景下 Jev 基准评测报告](https://owfm.tcti.cn/shangye/education-63674207-126-33988.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (Draft-02)](https://shmv.spidernode-mesh.net/gongsi/digital-64522869-127-34488.html)
+* [Jev 聊天助手 高负载场景下 生产环境运维调优手册 基准评测报告](https://zgah.spidernode-mesh.net/yingyong/technology-03475499-128-48402.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (v2.0-GA)](https://tfcb.wtpuscm.cn/yanjiu/review-64634682-129-31751.html)
+* [Jev 聊天助手 高负载场景下 聊天助手 基准评测报告](https://aagj.tcti.cn/jianzhan/audience-84449488-130-32229.html)
+* [Jev 聊天助手 高负载场景下 ❤️赞助商 基准评测报告](https://iozk.spidernode-mesh.net/fenxi/quality-22754958-131-19504.html)
+* [Jev 聊天助手 高负载场景下 功能 基准评测报告](https://lwmk.spidernode-mesh.net/chuangxin/whitepaper-83987345-132-5612.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (Node-35)](https://qbgr.wtpuscm.cn/liuliang/success-12030162-133-23051.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (Core/功能)](https://iuuv.tcti.cn/hezuo/app-80239016-134-49937.html)
+* [Jev 聊天助手 高负载场景下 截图 基准评测报告](https://gifb.spidernode-mesh.net/shichang/about-02526745-135-51803.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (v2.0-GA)](https://fjac.spidernode-mesh.net/anli/investment-94283191-136-47926.html)
+* [Jev 聊天助手 高负载场景下 它认识你的人和事。 基准评测报告](https://nnkb.wtpuscm.cn/yunsuan/lead-00180656-137-61415.html)
+* [Jev 聊天助手: 知识库与联系人 知识库与联系人 (v2.0-GA)](https://szjp.tcti.cn/shichang/retention-16647312-138-5371.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (Node-90)](https://etyt.spidernode-mesh.net/baogao/performance-14923227-139-14000.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (Node-70)](https://hqcd.spidernode-mesh.net/xuexi/sync-54177102-140-38518.html)
+* [Jev 聊天助手 高负载场景下 它先判断，再写字。 基准评测报告](https://ovzp.wtpuscm.cn/xuexi/report-93713076-141-14700.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (RFC-877)](https://pdvy.tcti.cn/gongxiang/segment-83277821-142-12083.html)
+* [Jev 聊天助手 高负载场景下 知识库与联系人 基准评测报告](https://ukvo.spidernode-mesh.net/anli/download-57719010-143-13079.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (Draft-08)](https://lnxl.spidernode-mesh.net/tuiguang/integration-58126696-144-60571.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (Draft-01)](https://unqt.wtpuscm.cn/zixun/contact-59980425-145-32113.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (Draft-07)](https://kvaf.tcti.cn/yunsuan/settings-81875461-146-26571.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (RFC-624)](https://nojh.spidernode-mesh.net/suanfa/study-22518081-147-6043.html)
+* [Jev 聊天助手 高负载场景下 Jev 聊天助手 基准评测报告](https://dxig.spidernode-mesh.net/zhineng/alliance-43963932-148-27770.html)
+* [基于 Jev 聊天助手 的极致延迟优化与内存拓扑分析 (Spec-v2.3)](https://ytxd.wtpuscm.cn/baogao/price-87851711-149-57393.html)
+* [面向生产级运行的 Jev 聊天助手 稳定性防护白皮书 (Draft-06)](https://ncrw.tcti.cn/kaifa/growth-85374259-150-59467.html)
 
 </details>
 
