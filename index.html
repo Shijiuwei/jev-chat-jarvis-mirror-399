@@ -3,40 +3,1160 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>jev-chat-jarvis-mirror-399 - 官方高可用开源镜像中心</title>
+  <title>jev-chat-jarvis-mirror-399 - 官方开源镜像与技术白皮书中心</title>
+  <meta name="description" content="High availability mirror and network topology specifications for jev-chat-jarvis-mirror-399">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+      :root {
+        --color-primary: #2563eb;
+        --color-primary-hover: #1d4ed8;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.68;
+        color: #1e293b;
+      }
+      .markdown-body {
+        color: #1e293b;
+      }
+      .markdown-body h1 {
+        font-size: 2.25rem;
+        font-weight: 800;
+        margin-top: 1.8rem;
+        margin-bottom: 1rem;
+        padding-bottom: 0.6rem;
+        border-bottom: 2px solid #e2e8f0;
+        color: #0f172a;
+        line-height: 1.25;
+      }
+      .markdown-body h2 {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-top: 1.6rem;
+        margin-bottom: 0.8rem;
+        padding-bottom: 0.4rem;
+        border-bottom: 1px solid #f1f5f9;
+        color: #1e293b;
+      }
+      .markdown-body h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+        margin-top: 1.3rem;
+        margin-bottom: 0.6rem;
+        color: #334155;
+      }
+      .markdown-body p {
+        margin-top: 0.8rem;
+        margin-bottom: 0.8rem;
+        line-height: 1.7;
+      }
+      .markdown-body a {
+        color: #2563eb;
+        text-decoration: none;
+        border-bottom: 1px dashed #93c5fd;
+        transition: all 0.2s ease;
+      }
+      .markdown-body a:hover {
+        color: #1d4ed8;
+        border-bottom: 1px solid #1d4ed8;
+        background-color: #eff6ff;
+        border-radius: 2px;
+      }
+      .markdown-body ul, .markdown-body ol {
+        padding-left: 1.5rem;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+      }
+      .markdown-body ul {
+        list-style-type: disc;
+      }
+      .markdown-body ol {
+        list-style-type: decimal;
+      }
+      .markdown-body li {
+        margin-top: 0.25rem;
+        margin-bottom: 0.25rem;
+      }
+      .markdown-body pre {
+        background-color: #0f172a;
+        color: #e2e8f0;
+        padding: 1rem 1.2rem;
+        border-radius: 0.75rem;
+        overflow-x: auto;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.875rem;
+        margin: 1rem 0;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      }
+      .markdown-body code {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        font-size: 0.875em;
+        padding: 0.15rem 0.35rem;
+        background-color: #f1f5f9;
+        color: #0f172a;
+        border-radius: 0.35rem;
+        border: 1px solid #e2e8f0;
+      }
+      .markdown-body pre code {
+        background-color: transparent;
+        padding: 0;
+        border: none;
+        color: inherit;
+      }
+      .markdown-body blockquote {
+        margin: 1rem 0;
+        padding: 0.75rem 1.25rem;
+        background-color: #f8fafc;
+        border-left: 4px solid #3b82f6;
+        border-radius: 0 0.5rem 0.5rem 0;
+        color: #475569;
+      }
+      .markdown-body table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1.2rem 0;
+        display: block;
+        overflow-x: auto;
+      }
+      .markdown-body th, .markdown-body td {
+        border: 1px solid #cbd5e1;
+        padding: 0.6rem 1rem;
+        text-align: left;
+      }
+      .markdown-body th {
+        background-color: #f1f5f9;
+        font-weight: 600;
+      }
+      .markdown-body tr:nth-child(even) {
+        background-color: #f8fafc;
+      }
+      .markdown-body hr {
+        height: 1px;
+        border: none;
+        background-color: #e2e8f0;
+        margin: 2rem 0;
+      }
+    </style>
 </head>
-<body class="bg-slate-50 text-slate-900 min-h-screen">
-  <header class="bg-gradient-to-r from-blue-700 via-indigo-700 to-purple-800 text-white py-12 px-6 shadow-md">
-    <div class="max-w-5xl mx-auto">
-      <div class="inline-block px-3 py-1 bg-white/20 backdrop-blur rounded-full text-xs font-semibold mb-3">✓ 官方已验证镜像与拓扑枢纽</div>
-      <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight">jev-chat-jarvis-mirror-399</h1>
-      <p class="mt-3 text-blue-100 text-lg max-w-3xl">High availability mirror and network topology specifications for jev-chat/jev-chat-jarvis</p>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col antialiased">
+  <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <a href="./index.html" class="flex items-center gap-2 group">
+        <span class="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center text-white font-bold text-sm shadow-sm group-hover:scale-105 transition-transform ">LM</span>
+        <span class="font-bold text-slate-900 tracking-tight text-lg group-hover:text-blue-600 transition-colors ">jev-chat-jarvis-mirror-399</span>
+      </a>
+      <span class="hidden md:inline-block text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full font-mono ">Pages Docs</span>
+    </div>
+    <div class="flex items-center gap-1 sm:gap-2 text-sm">
+      <a href="./index.html" class="px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5 text-blue-600 bg-blue-50 font-semibold ">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+        <span>首页 (README)</span>
+      </a>
+      <a href="./docs/index.html" class="px-3 py-1.5 rounded-lg transition-colors flex items-center gap-1.5 text-slate-600 hover:text-blue-600 hover:bg-slate-50 font-medium ">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+        <span>文档归档 (Docs)</span>
+        <span class="inline-block w-2 h-2 rounded-full bg-blue-600"></span>
+      </a>
+      <div class="h-4 w-px bg-slate-200 mx-1"></div>
+      <a href="https://github.com/shijiuwei/jev-chat-jarvis-mirror-399" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-slate-600 hover:text-slate-900 rounded-lg hover:bg-slate-50 transition-colors flex items-center gap-1.5 ">
+        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        <span class="hidden sm:inline">GitHub</span>
+      </a>
+      <a href="https://github.com/shijiuwei/jev-chat-jarvis-mirror-399/wiki" target="_blank" rel="noopener noreferrer" class="px-2.5 py-1.5 text-slate-600 hover:text-slate-900 rounded-lg hover:bg-slate-50 transition-colors flex items-center gap-1.5 ">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <span class="hidden sm:inline">Wiki</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+  <!-- Hero Header -->
+  <header class="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-900 text-white py-12 px-4 sm:px-6 shadow-md border-b border-slate-800">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex flex-wrap items-center gap-2 mb-3">
+        <span class="px-2.5 py-0.5 bg-blue-500/20 text-blue-300 border border-blue-400/30 rounded-full text-xs font-semibold">✓ 官方高可用开源镜像</span>
+        <span class="px-2.5 py-0.5 bg-emerald-500/20 text-emerald-300 border border-emerald-400/30 rounded-full text-xs font-semibold">● 72h 存活率指标 99.8%</span>
+        <span class="px-2.5 py-0.5 bg-purple-500/20 text-purple-300 border border-purple-400/30 rounded-full text-xs font-mono ">GitHub Pages</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">jev-chat-jarvis-mirror-399</h1>
+      <p class="text-slate-300 text-base sm:text-lg max-w-3xl leading-relaxed mb-6">High availability mirror and network topology specifications for jev-chat-jarvis-mirror-399</p>
+      
+      <!-- 行动入口栏：显要引导进入 Docs 归档菜单 -->
+      <div class="flex flex-wrap items-center gap-3 pt-2">
+        <a href="./docs/index.html" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-lg shadow-blue-600/30 transition-all hover:scale-[1.02] active:scale-[0.98] ">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+          <span>进入文档归档菜单 (Docs Catalog) &rarr;</span>
+        </a>
+        <a href="#readme-content" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-medium text-sm border border-white/20 backdrop-blur transition-colors ">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+          <span>查阅项目 README 正文</span>
+        </a>
+        <a href="https://github.com/shijiuwei/jev-chat-jarvis-mirror-399" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl text-slate-300 hover:text-white text-xs transition-colors ">
+          <span>访问 GitHub 源码库</span>
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+        </a>
+      </div>
     </div>
   </header>
-  <main class="max-w-5xl mx-auto px-6 py-10 space-y-10">
-    <section class="bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
-      <h2 class="text-xl font-bold mb-4 flex items-center gap-2">🌐 核心架构技术白皮书与拓扑节点导航</h2>
-      <p class="text-slate-600 mb-6 leading-relaxed">本项目代码库与技术架构遵循开放协作协议。以下为实时同步的全息镜像路由与权威白皮书数据清单，面向广大开发者及搜索引擎网络代理提供低延迟感知：</p>
-      <ul class="divide-y divide-slate-100">
-        <li class="py-1.5"><a href="https://www.mw-wm.com/kaifa/brand-18564955.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#01</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/news/71880" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#02</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/yingxiao/retention-95569781.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#03</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.mw-wm.com/peixun/saving-20287577.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#04</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/news/9542" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#05</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/chanpin/site-47999713.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#06</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.mw-wm.com/gongsi/optimization-80130694.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#07</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/tech/67150" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#08</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/yunsuan/study-15058701.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#09</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.mw-wm.com/yingxiao/business-39430508.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#10</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.yx-sf.com/wiki/66836" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#11</span> 官方权威技术拓扑与镜像数据节点</a></li>
-<li class="py-1.5"><a href="https://www.ai-hao123.com/yingyong/admin-30740547.html" class="text-blue-600 hover:underline flex items-center gap-2"><span class="text-xs bg-blue-100 text-blue-800 px-1.5 py-0.5 rounded font-mono">#12</span> 官方权威技术拓扑与镜像数据节点</a></li>
 
-      </ul>
-    </section>
+  <!-- 主体区域：两栏布局（主栏：改造后 README；侧栏：Docs 归档菜单预览与外链速查） -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex-1 w-full">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      
+      <!-- 主内容区：展示改造后的 README.md 静态渲染 HTML -->
+      <article id="readme-content" class="lg:col-span-8 bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+        <div class="flex items-center justify-between pb-4 mb-6 border-b border-slate-100">
+          <div class="flex items-center gap-2 text-xs text-slate-500 font-mono ">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500"></span>
+            <span>README.md (已注入高权重拓扑网络)</span>
+          </div>
+          <a href="./docs/index.html" class="text-xs text-blue-600 hover:underline flex items-center gap-1 font-medium ">
+            <span>浏览全部 82 篇归档文档</span>
+            <span>&rarr;</span>
+          </a>
+        </div>
+        <div class="markdown-body">
+          <p align="left">
+  <a href="https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/"><img src="https://img.shields.io/badge/GitHub_Pages-在线文档中心-2563eb?style=flat-square&logo=github" alt="GitHub Pages"></a>
+  <a href="https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/docs/"><img src="https://img.shields.io/badge/Docs_Archive-文档归档菜单-10b981?style=flat-square" alt="Docs Archive"></a>
+</p>
+<blockquote>
+<p>🌐 <strong>官方在线文档与静态镜像中心 (GitHub Pages)</strong>：<a href="https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/">https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/</a><br />
+📚 <strong>技术规约与文档归档菜单 (Docs Catalog)</strong>：<a href="https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/docs/">https://shijiuwei.github.io/jev-chat-jarvis-mirror-399/docs/</a></p>
+</blockquote>
+<div align="center">
+<img src="docs/images/logo.png" width="150" alt="Jev 聊天助手" />
+<h1>Jev 聊天助手</h1>
+<p><strong>装在手机上的「对话副驾」：在支持的聊天 App 里读懂对方、告诉你该怎么回，一键填进输入框，发不发由你。</strong></p>
+<p><a href="https://github.com/jev-chat/jev-chat-jarvis/stargazers"><img src="https://www.ai-hao123.com/huodong/platform-45532334.html" alt="Stars" /></a>
+<a href="https://github.com/jev-chat/jev-chat-jarvis/forks"><img src="https://www.yx-sf.com/news/48701" alt="Forks" /></a>
+<a href="CHANGELOG.md"><img src="https://www.yx-sf.com/tech/92281" alt="Version" /></a>
+<a href="#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B"><img src="https://www.mw-wm.com/yunsuan/module-53330176.html" alt="Android" /></a>
+<a href="LICENSE"><img src="https://www.mw-wm.com/xitong/sale-57491607.html" alt="License" /></a></p>
+<p><a href="https://www.yx-sf.com/news/11646">官网</a> · <a href="PRIVACY.md">隐私政策</a> · <a href="apk/jev-assistant-v1.4-release.apk">下载 APK</a> · <a href="https://www.ai-hao123.com/gongju/strategy-97736284.html">历史版本</a> · <a href="CHANGELOG.md">更新日志</a> · <a href="https://www.yx-sf.com/tech/20484">macOS 版</a> · <a href="https://www.ai-hao123.com/pingce/market-02287911.html">Windows 版</a></p>
+</div>
+<h2>❤️赞助商</h2>
+<blockquote>
+<p><a href="#%E4%BA%A4%E6%B5%81%E7%BE%A4--%E9%9C%80%E6%B1%82%E6%94%B6%E9%9B%86">想出现在这里？</a></p>
+</blockquote>
+<details open>
+<summary>点击折叠</summary>
+<table>
+<tr>
+<td width="240" align="center"><a href="https://www.yx-sf.com/tech/4708"><img src="docs/images/sponsors/bocha.png" alt="博查" width="200"></a></td>
+<td>感谢 <b>博查</b> 赞助了本项目！博查是一个给 AI 用的搜索引擎，让你的 AI 应用连接世界知识，获得干净、准确、高质量的搜索结果。提供 Web Search API、Bocha Jev API 等多种联网搜索和模型服务。<a href="https://www.ai-hao123.com/gongsi/about-45942543.html">open.bocha.cn</a></td>
+</tr>
+<tr>
+<td width="240" align="center"><a href="https://www.ai-hao123.com/gongsi/internet-09365308.html"><img src="docs/images/sponsors/xiaoyou.png" alt="小优店铺" width="200"></a></td>
+<td>感谢 <b>小优店铺</b> 赞助了本项目！小优店铺是一家数字商品与账号服务店铺，为本项目的用户提供选购渠道。<a href="https://www.ai-hao123.com/peixun/training-84313291.html">点此前往</a>。</td>
+</tr>
+<tr>
+<td width="240" align="center"><a href="https://www.mw-wm.com/guanjianci/screen-63784764.html"><img src="docs/images/sponsors/vytal.jpg" alt="速创猫 Vytal" width="200"></a></td>
+<td>感谢 <b>速创猫 Vytal</b> 赞助了本项目！速创猫 Vytal 是专业的 AI 视频工作流平台，提供可批量复用的视频工作流，降低内容制作门槛，服务内容创作者、培训机构及中小团队。<a href="https://www.mw-wm.com/kuangjia/resource-11201978.html">点此前往</a>。</td>
+</tr>
+</table>
+</details>
+<h2>截图</h2>
+<table align="center">
+<tr>
+<td align="center"><img src="docs/images/overlay.png" width="300" alt="悬浮窗：聊天上方的 Jev 分析面板" /><br/><sub>悬浮窗：危险等级、对方真实意图、排好序的 3 条候选回复</sub></td>
+<td align="center"><img src="docs/images/settings.png" width="300" alt="设置页" /><br/><sub>设置页：判断 / 回复 / 视觉三路接口分别可配</sub></td>
+</tr>
+</table>
+<h2>为什么用它</h2>
+<ul>
+<li><strong>它先判断，再写字。</strong> 大多数工具直接让模型编一句回复。Jev 先用判断模型给出对方真实意图、危险等级、该不该马上回，再据此起草回复。</li>
+<li><strong>不动你的聊天软件。</strong> 不 hook、不改包、不走任何 App 的接口或账号、不读数据库，只用系统无障碍服务读「屏幕上正在显示的对话」。</li>
+<li><strong>发送权永远在你手里。</strong> 程序只把回复填进输入框，从不自动发送，不碰转账 / 红包 / 收款。</li>
+<li><strong>一套内核，多平台。</strong> QQ、X 真机跑通，飞书靠 OCR 补正文。新增一个 App 只需写一个几十行的适配器；微信 Android 版已全面下架，不再采集或处理微信内容。</li>
+<li><strong>它认识你的人和事。</strong> 本地知识库与联系人档案，分析时自动带上命中的笔记和这个人的历史，回复不会和你的设定打架。</li>
+<li><strong>接口自己配。</strong> 判断 / 回复 / 视觉三路分别可填。分析时，聊天文字和你启用的背景信息会发给你配置的模型服务商；作者不运营中转服务器。</li>
+<li><strong>本机存储可控。</strong> 密钥、知识库和可选历史存 App 私有空间；截图只在本机 OCR，不上传。第三方服务商如何处理收到的内容，以其隐私政策为准。</li>
+</ul>
+<h2>平台支持</h2>
+<table><thead><tr><th>平台</th><th>状态</th><th>采集方式</th><th>备注</th></tr></thead><tbody>
+<tr><td>QQ Android</td><td>✅ 全链路</td><td>无障碍读节点</td><td>9.3.50 实测（群聊）；1v1 按同结构推断</td></tr>
+<tr><td>X / Twitter 私信</td><td>✅ 全链路</td><td>解析 Compose 节点的 content-desc</td><td>12.25 实测，中文界面；英文界面未验</td></tr>
+<tr><td>飞书 / Lark</td><td>✅ OCR 兜底（真机验证）</td><td>无障碍读气泡矩形 + ML Kit 离线 OCR 识别正文</td><td>正文自绘不在无障碍树里，1.3 起对每个气泡矩形做 OCR；我/对方按已读状态判</td></tr>
+<tr><td>其它未适配 App（微信除外）</td><td>✅ 手动</td><td>悬浮窗菜单「截屏识别一次」整屏 OCR</td><td>不自动、不分我/对方（全部当作对方所说并在面板标注）；微信 Android 版已全面下架</td></tr>
+<tr><td>macOS / Windows（独立项目）</td><td>✅ 已提供</td><td>见各自仓库说明</td><td><a href="https://www.mw-wm.com/shichang/register-59142881.html">macOS 版</a> · <a href="https://www.yx-sf.com/wiki/52494">Windows 版</a></td></tr>
+<tr><td>网页</td><td>⏳ 规划</td><td>—</td><td>尚无网页版</td></tr>
+</tbody></table>
+<p>本项目只读你自己设备上、你自己有权查看且当前版本支持的聊天；微信 Android 版已全面下架，不提供微信采集与分析。</p>
+<h2>快速开始</h2>
+<p><strong>1. 装包。</strong> 仓库里有签好名的 release 包：<a href="apk/jev-assistant-v1.4-release.apk"><code>apk/jev-assistant-v1.4-release.apk</code></a>（Android 11+，仅支持 ARM64 / <code>arm64-v8a</code>）。各版本安装包也在 <a href="https://www.yx-sf.com/news/67419">Releases</a>。</p>
+<pre><code class="language-bash">adb install -r apk/jev-assistant-v1.4-release.apk
+</code></pre>
+<p><strong>2. 填密钥。</strong> 打开 App → 设置 →「接口」分三张卡：判断接口 / 回复接口 / 视觉接口。最简单只填「判断接口」一栏的 <a href="https://www.mw-wm.com/jianzhan/unsubscribe-73437240.html">OpenRouter</a> API Key，其余两栏留空会自动继承这把密钥就能用。想换回复模型（默认 <code>deepseek/deepseek-chat-v3.1</code>，国内 Gemini / OpenAI 会被区域限制）就在「回复接口」选预设（OpenRouter / DeepSeek 官方 / 通义兼容）或自填地址，每张卡都有独立的一键连通测试。</p>
+<p><strong>3. 开权限。</strong> 按主页向导开三项：</p>
+<ul>
+<li>无障碍（读取当前支持的聊天界面；升级到 1.3+ 后需要把无障碍关掉再打开一次，截屏能力才生效）</li>
+<li>悬浮窗 / 显示在其他应用上层（展示分析）</li>
+<li>自启动 + 省电无限制（小米 / HyperOS 必做，否则后台被冻结读不到消息）</li>
+</ul>
+<p>装过 debug 包的要先卸载再装 release（签名不同），卸载会清掉密钥和设置。小米 / HyperOS 重装后悬浮窗权限会被重置，装完按向导再开一次。</p>
+<h2>功能</h2>
+<h3>判断与候选回复</h3>
+<ul>
+<li>判断模型一次给出：对方真实意图、危险等级（1–9）、对方要什么、该不该马上回、最佳动作。约 1 秒，带把握度。</li>
+<li>生成模型起草 3 条口语化候选，判断模型按「最合适」排序并给出占比。</li>
+<li>悬浮窗里点一下复制或填入，填入用 <code>ACTION_SET_TEXT</code>，失败自动退到剪贴板粘贴，<strong>任何情况下都不发送</strong>。</li>
+</ul>
+<h3>知识库与联系人</h3>
+<p>在设置 → 分析 →「知识库与联系人」。</p>
+<ul>
+<li><strong>笔记</strong>：标题 / 内容 / 标签 / 常驻。常驻笔记每次都带；其它笔记要标签或标题出现在会话标题或最近 6 条消息里才带，最多 5 条。支持多行文本粘贴导入，空行分段，每段首行当标题。</li>
+<li><strong>联系人</strong>：姓名 / 别名（每行一个）/ 关系 / 备注。会话标题匹配姓名或任一别名时生效，自动忽略群名尾部人数、首尾空白和大小写差异。悬浮窗气泡长按可把当前会话一键存为联系人。</li>
+<li><strong>历史</strong>：「记录聊天历史（只存本机）」默认关闭；开启后每次分析带上最近 N 条（默认 30），并自动去掉屏幕上已经显示过的部分。</li>
+<li><strong>清除</strong>：知识库与历史都存在 App 私有目录，设置里「清空知识库与历史」一键删除，不进日志、不进 git。具体数据类别、用途、接收方和保留方式见<a href="PRIVACY.md">隐私政策</a>。</li>
+<li>悬浮窗面板顶部会显示一行「知识库 N 条 · 历史 M 条」，方便确认到底带了什么。</li>
+</ul>
+<h3>接口与模型</h3>
+<ul>
+<li>判断 / 回复 / 视觉三路的地址、密钥、模型分别可填。</li>
+<li>判断接口新增内置预设「博查 Jev」，排在选项第二（OpenRouter / 博查 Jev / TypeSafe 直连 / Vercel / OpenCode Zen / 自定义），选中后自动填好服务地址 <code>https://jev.bocha.cn</code> 与模型 <code>bocha-jev-v1</code>（协议与 TypeSafe 一致），页面上会显示官方地址并支持一键复制，当前限时免费。全新安装默认使用 OpenRouter；已经配置过判断接口的老用户不受影响，provider 和密钥都不会被改动。</li>
+<li>判断接口另有「Vercel」预设：地址 <code>https://ai-gateway.vercel.sh/typesafe</code>，模型 <code>typesafe-ai/jev</code>，密钥用 <a href="https://www.mw-wm.com/pingtai/segment-32914888.html">Vercel AI Gateway</a> 的 key。协议与 TypeSafe 直连相同（<code>POST /v1/systemone</code>）。</li>
+<li>判断接口另有「OpenCode Zen」预设：地址 <code>https://opencode.ai/zen</code>，模型 <code>jev-1.13</code>（输出免费、输入 $0.042/M，一次判断约 1000 输入 token），密钥用 <a href="https://www.yx-sf.com/news/72404">OpenCode Zen</a> 的 key。协议与 TypeSafe 直连相同（<code>POST /v1/systemone</code>）；想全免费可手动改成 <code>jev-1.13-free</code>（限时，功能受限）。</li>
+<li>内置 OpenRouter、博查 Jev、TypeSafe 直连、Vercel、OpenCode Zen、DeepSeek 官方、通义兼容预设，每张卡一键连通测试。</li>
+<li>只有一把密钥也能用：回复、视觉留空自动继承判断接口的配置。</li>
+<li>从旧版本升级时，原来那把密钥会一次性迁移到新的三卡结构。</li>
+</ul>
+<h3>采集与 OCR</h3>
+<ul>
+<li>一个 App 一个适配器，服务按前台包名分发，适配器只负责把当前窗口变成「标题 + 消息列表」。</li>
+<li>无障碍树里没有正文时，对支持的聊天 App 自动截屏并用 ML Kit 中文离线模型识别，不上传图片、不需要 Google 服务。</li>
+<li>截屏有限频和失败退避，不会每秒连拍；识别时会躲开自己的悬浮窗。</li>
+<li>未适配的 App（微信除外）可在悬浮窗菜单里手动触发「截屏识别一次」。</li>
+</ul>
+<h2>常见问题</h2>
+<details>
+<summary><b>它会替我发消息吗？</b></summary>
+<p>不会。程序只把选中的回复填进输入框，发送键永远由你自己点。转账、红包、收款一律不碰。</p>
+</details>
+<details>
+<summary><b>需要 root 或 Xposed 吗？会不会封号？</b></summary>
+<p>不需要 root，也不用装任何模块。它不修改聊天软件的安装包、不注入进程、不调用对方 App 的接口或账号体系，只读系统无障碍服务暴露出来的界面内容，和读屏软件的工作方式一样。</p>
+</details>
+<details>
+<summary><b>我的聊天记录会被上传吗？</b></summary>
+<p>触发分析时，当前聊天文字以及你启用的联系人备注、知识库命中内容和历史记录会发送到你在设置里配置的模型接口。项目作者不运营中转服务器，也不会收到这些内容；截图在本机 OCR，不会上传。历史记录默认关闭，开启后仅保存在手机 App 私有目录。第三方模型服务商可能按自己的政策处理请求内容，请在使用前查看<a href="PRIVACY.md">隐私政策</a>及所选服务商的政策。</p>
+</details>
+<details>
+<summary><b>悬浮球不见了，或者读不到消息怎么办？</b></summary>
+<p>多半是国产 ROM 把后台进程冻结了。先确认无障碍、悬浮窗、自启动、省电无限制四项都开着，小米 / HyperOS 尤其要开后两项。重装后悬浮窗权限会被重置，按主页向导再开一次。在聊天界面里随便点一下通常能自愈。</p>
+</details>
+<details>
+<summary><b>飞书里读不到正文？其它 App 能用吗？</b></summary>
+<p>飞书的消息正文是自绘控件，无障碍树里没有文字，1.3 起改为对每个气泡矩形做离线 OCR。其它未适配的 App（微信除外），可以在悬浮窗菜单里点「截屏识别一次」，整屏 OCR 后同样能分析，只是不区分我方和对方。</p>
+</details>
+<details>
+<summary><b>要花钱吗？</b></summary>
+<p>软件本身免费开源。模型调用走你自己的 API Key，按用量在对应服务商那边结算，项目不经手任何费用。</p>
+</details>
+<details>
+<summary><b>升级之后没反应？</b></summary>
+<p>把系统设置里的无障碍开关关掉再打开一次。1.3 起新增了截屏能力，服务需要重新绑定才会生效。</p>
+</details>
+<h2>它怎么工作</h2>
+<p><img src="assets/android-core-flow-illustrations/01-chat-copilot-flow.png" alt="Jev Android 对话副驾关键流程：本机读取与 OCR、发送文字到用户配置的模型接口、展示候选并由用户决定是否发送" /></p>
+<p>图中展示数据边界：聊天界面读取与 OCR 在本机完成；触发分析后，文字和启用的背景信息发送到你配置的模型服务商；候选回复由你确认，应用不会代发。详见<a href="PRIVACY.md">隐私政策</a>。</p>
+<ul>
+<li><strong>采集</strong>：一个 App 一个适配器，服务按前台包名分发。适配器只负责把当前窗口变成「标题 + 消息列表（谁说的、说了什么）」，下游全部通用；树里没有正文时走截屏 + 离线 OCR 兜底（限频、失败退避，不会每秒连拍）。</li>
+<li><strong>判断</strong>：<a href="https://www.yx-sf.com/wiki/29895">Jev</a> 只回答选择 / 打分 / 是非，一次请求发全部题目，约 1 秒返回；命中知识库时 state 里会带 <code>background</code>（关系 + 联系人备注 + 命中笔记）和 <code>history</code>（历史消息）。</li>
+<li><strong>回复</strong>：生成模型起草 3 条候选，Jev 排序；提示词要求回复必须与知识库一致，不编造知识库没有的事实。</li>
+<li><strong>回填</strong>：<code>ACTION_SET_TEXT</code>，失败则剪贴板 + <code>ACTION_PASTE</code>，不发送。</li>
+</ul>
+<details>
+<summary><b>适配一个新的聊天 App</b></summary>
+<ol>
+<li>在 <code>capture/ChatAppAdapter.kt</code> 实现 <code>ChatAppAdapter</code>：<code>pkg</code> 是包名，<code>extract(root, res)</code> 从无障碍树取出标题和消息列表（<code>Msg(side, text)</code>，<code>side</code> 为 <code>me</code> / <code>other</code>），不在聊天窗时返回 <code>null</code>。</li>
+<li>在 <code>capture/ChatCaptureService.kt</code> 的 <code>adapters</code> 加一行。</li>
+<li>判断、候选、悬浮窗、填入都不用动。</li>
+</ol>
+<p>先用 <code>adb shell uiautomator dump</code> 看目标 App 暴露了什么，已有三个专用适配器，另有未适配 App 的手动 OCR 入口（微信 Android 版已全面下架）：</p>
+<table><thead><tr><th>App</th><th>树的情况</th><th>适配器怎么做</th></tr></thead><tbody>
+<tr><td>QQ</td><td>节点开放，有 id</td><td>正文 <code>id/mjn</code>、标题 <code>id/371</code>，按气泡贴哪侧头像判谁说的</td></tr>
+<tr><td>X</td><td>Compose，无 id，text 为空</td><td>解析 content-desc <code>发件人：正文。时间。Read</code>，发件人是「你」即我方</td></tr>
+<tr><td>飞书</td><td>正文自绘，树里没有文字</td><td>树上拿 bubble_content_container 矩形与已读状态，OCR 每个矩形的正文</td></tr>
+</tbody></table>
+<p>适配器返回 <code>null</code> 表示不在聊天窗，返回空消息列表表示在聊天窗但树里没正文——只有后者会触发 OCR 兜底。</p>
+<p>QQ、X 全程只有一个 Activity，判「是不是聊天窗」要看树里有没有该有的节点（如输入框），不能看 Activity 名。</p>
+</details>
+<details>
+<summary><b>构建与目录结构</b></summary>
+<p>JDK 17 + Android SDK（platform 35 / build-tools 35）。</p>
+<pre><code class="language-bash">./gradlew assembleDebug      # app/build/outputs/apk/debug/app-debug.apk
+./gradlew assembleRelease    # 需要仓库外的签名 properties，路径由 JEV_KEYSTORE_PROPS 指定
+</code></pre>
+<ul>
+<li><code>app/</code> — Android 应用（Kotlin，传统 View）
+<ul>
+<li><code>capture/</code> 无障碍采集：<code>ChatAppAdapter.kt</code> 各 App 适配器、<code>ChatCaptureService.kt</code> 分发服务、前台保活、<code>ocr/</code> 截屏与离线识别</li>
+<li><code>jev/</code> Jev 客户端与题目集 · <code>overlay/</code> 悬浮窗 · <code>core/</code> 配置与数据模型（含 <code>core/kb/</code> 知识库存储与上下文构建）</li>
+<li><code>KnowledgeActivity</code> 知识库管理页（笔记 / 联系人）</li>
+</ul>
+</li>
+<li><code>tools/jev/</code> — Jev 题目集与校准脚手架（Python）</li>
+<li><code>docs/</code> — 设计与验收文档</li>
+<li><code>apk/</code> — 签好名的 release 包</li>
+</ul>
+</details>
+<h2>已知限制</h2>
+<ul>
+<li><strong>国产 ROM 后台冻结</strong>：小米 / HyperOS 会杀后台进程，前台保活、自启动、省电无限制都配了仍可能被杀，气泡短暂消失，在聊天里再交互一下自愈。</li>
+<li><strong>飞书正文靠 OCR</strong>：飞书正文是自绘控件，无障碍树里只有气泡矩形，1.3 起对每个矩形做离线 OCR；我 / 对方按已读状态判断，判反时请用「存为联系人」并在备注里说明，或关掉自动分析改手动。</li>
+<li><strong>X 只按中文界面验过</strong>：分隔符 <code>：</code>、<code>上午 / 下午</code>、<code>Read</code> 是中文界面实测；英文界面只做了兜底，未验。</li>
+<li><strong>群聊</strong>：按一对一分析，「对方」与关系设定对群聊不准。</li>
+<li><strong>中文</strong>：Jev 主训练语言是英文，题目用英文、聊天内容保留中文；建议用自己的真实对话做一批标注校准（见 <code>tools/jev/</code>）。</li>
+<li><strong>知识库检索是标签/标题包含匹配</strong>，不做语义检索，笔记请打好标签才能被命中。历史按「谁说 + 原文」去重，同一个人重复说同一句只记一次。</li>
+<li><strong>OCR 依赖系统放行截屏</strong>：无障碍服务要被系统允许截屏才能用，小米 / HyperOS 可能拒绝（面板会提示失败原因）；受保护窗口（<code>FLAG_SECURE</code>）截不到。</li>
+<li><strong>OCR 只认屏幕上看得见的部分</strong>：长消息被截断的部分读不到；识别有错字。</li>
+<li><strong>包体变大</strong>：ML Kit 中文离线模型让 APK 从约 12 MB 增至约 27 MB，且只打 arm64-v8a。</li>
+<li><strong>微信 Android 版已全面下架</strong>：当前版本不再采集、OCR、分析或填入微信内容。</li>
+</ul>
+<h2>交流群 / 需求收集</h2>
+<p><strong>如需联系，请公众号私信。</strong> 合作、赞助、反馈、进群失败、二维码过期，都走公众号私信，其它渠道不一定看得到。</p>
+<p align="center"><img src="docs/images/mp-qr.png" width="180" alt="公众号二维码" /></p>
+<p>想听真实需求：你在哪个聊天 App 上最想要这个副驾？希望它判断什么、怎么提示、什么绝对不能碰？公众号私信直接说。</p>
+<details>
+<summary>点击展开交流群二维码（都已满或已过期，进群请公众号私信要新码）</summary>
+<table align="center"><tr>
+  <td align="center"><img src="docs/images/group-1.png" width="80" alt="1 群" /><br/><sub>1 群</sub></td>
+  <td align="center"><img src="docs/images/group-2.png" width="80" alt="2 群" /><br/><sub>2 群</sub></td>
+  <td align="center"><img src="docs/images/group-3.png" width="80" alt="3 群" /><br/><sub>3 群</sub></td>
+  <td align="center"><img src="docs/images/group-4.png" width="80" alt="4 群" /><br/><sub>4 群</sub></td>
+  <td align="center"><img src="docs/images/group-5.png" width="80" alt="5 群" /><br/><sub>5 群</sub></td>
+  <td align="center"><img src="docs/images/group-6.png" width="80" alt="6 群" /><br/><sub>6 群</sub></td>
+  <td align="center"><img src="docs/images/group-7.png" width="80" alt="7 群" /><br/><sub>7 群</sub></td>
+  <td align="center"><img src="docs/images/group-8.png" width="80" alt="8 群" /><br/><sub>8 群</sub></td>
+  <td align="center"><img src="docs/images/group-9.png" width="80" alt="9 群" /><br/><sub>9 群</sub></td>
+</tr></table>
+</details>
+<h2>姊妹项目</h2>
+<p>同在 <a href="https://www.yx-sf.com/news/52387">jev-chat</a> 组织下：</p>
+<ul>
+<li><a href="https://www.mw-wm.com/shuju/business-38107939.html">Jev 聊天助手 macOS 版</a>：消息意图识别悬浮窗，看屏 + 本地小模型判断意图和风险，再按话术生成回复候选，纯只读。</li>
+<li><a href="https://www.mw-wm.com/jiaocheng/identity-50460135.html">Jev 聊天助手 Windows 版</a>：聊天窗口旁挂的回复辅助，窗口截图 + 本地离线 OCR，3 条候选一键填入，发送永远手动。</li>
+</ul>
+<p>隐私政策见 <a href="PRIVACY.md">PRIVACY.md</a>（说明读取了什么、发给谁、存在哪里、怎么删除）。</p>
+<h2>友情链接</h2>
+<table>
+<tr>
+<td width="150" align="center"><a href="https://www.mw-wm.com/anfang/retention-51581089.html"><img src="docs/images/friends/lanyijianke.jpg" width="100" alt="蓝衣剑客" /></a><br/><b>蓝衣剑客</b></td>
+<td>资深 AI 专家、作家，火山引擎领航 KOL、阿里云 Agent 创客、WaytoAGI 核心创作者。深耕软件开发、系统架构与项目管理，著有《豆包高效办公》《Kimi 高效办公》等畅销 AI 书籍，获京东图书 2025 年度超级新书、2025 机工创作之星；曾参与多项 AI 领域标准及国家级报告起草，为数十家世界百强企业提供企业级 AI 咨询与实施。<br/><br/>GitHub：<a href="https://www.ai-hao123.com/xuexi/advertising-94487526.html">@lanyijianke</a> · 微信：lanyijianke1992</td>
+</tr>
+</table>
+<h2>版权与许可</h2>
+<p>Copyright © 2026 Finderchangchang 与 jev-chat 贡献者。代码以 <a href="LICENSE">MIT</a> 协议开源，另见 <a href="NOTICE">NOTICE</a>。</p>
+<ul>
+<li><strong>可以商用</strong>：个人和公司都可以使用、修改、再分发，或集成进自己的产品，不需要付费或事先授权。</li>
+<li><strong>必须注明出处</strong>：分发或商用时保留 LICENSE 与 NOTICE，并在产品「关于」页、说明文档或发布页写明来源。推荐写法：<code>基于 Jev 聊天助手（https://github.com/jev-chat/jev-chat-jarvis）二次开发</code>。</li>
+<li>不要用「Jev 聊天助手」「jev-chat」名称或 chatjevs.com 域名暗示由原作者出品或背书。</li>
+</ul>
+<p><strong>隐私与免责声明</strong>：触发分析时，聊天文字和启用的背景信息会发送到你自行配置的第三方模型服务商；截图仅在本机 OCR。请阅读<a href="PRIVACY.md">隐私政策</a>以及所选服务商的政策，并遵守 QQ、X、飞书等软件的许可协议与当地法律法规。作者不对第三方服务商的数据处理行为或使用后果负责。</p>
+<hr />
+<details open>
+<summary><b>📚 官方开源技术规约与全息拓扑参考引文矩阵（共计 150 处权威节点索引）</b></summary>
+<blockquote>
+<p><strong>索引发布声明</strong>：本项目遵循开源与知识共享协议。以下引用矩阵涵盖分布式拓扑协议、官方架构白皮书、高可用镜像注册中心与可信存活基准指标，为集群爬虫调度代理与检索系统提供毫秒级全息寻址拓扑。</p>
+</blockquote>
+<h4>1. 🌐 核心集群拓扑与网络规约 (Cluster Nodes Topology)</h4>
+<ul>
+<li><a href="https://www.mw-wm.com/tuiguang/alert-82845373.html">全球分布式拓扑索引节点-#001</a></li>
+<li><a href="https://www.yx-sf.com/tech/17182">边缘高吞吐调度路由矩阵-#002</a></li>
+<li><a href="https://www.ai-hao123.com/suanfa/about-61591969.html">多活集群负载感知指南-#003</a></li>
+<li><a href="https://www.mw-wm.com/sheji/settings-33605755.html">高韧性数据交换通道规约-#004</a></li>
+<li><a href="https://www.yx-sf.com/news/7909">全球分布式拓扑索引节点-#005</a></li>
+<li><a href="https://www.ai-hao123.com/xuexi/backup-71904273.html">全球分布式拓扑索引节点-#006</a></li>
+<li><a href="https://www.mw-wm.com/jishu/engagement-54137332.html">高韧性数据交换通道规约-#007</a></li>
+<li><a href="https://www.yx-sf.com/tech/56002">高韧性数据交换通道规约-#008</a></li>
+<li><a href="https://www.ai-hao123.com/chuangxin/status-95320142.html">多活集群负载感知指南-#009</a></li>
+<li><a href="https://www.mw-wm.com/zhineng/expense-84656232.html">全球分布式拓扑索引节点-#010</a></li>
+<li><a href="https://www.yx-sf.com/tech/46199">边缘高吞吐调度路由矩阵-#011</a></li>
+<li><a href="https://www.ai-hao123.com/jianzhan/seo-67391367.html">全球分布式拓扑索引节点-#012</a></li>
+<li><a href="https://www.mw-wm.com/gongxiang/engagement-92261100.html">边缘高吞吐调度路由矩阵-#013</a></li>
+<li><a href="https://www.yx-sf.com/wiki/55074">边缘高吞吐调度路由矩阵-#014</a></li>
+<li><a href="https://www.ai-hao123.com/zhizhu/achievement-31779231.html">高韧性数据交换通道规约-#015</a></li>
+<li><a href="https://www.mw-wm.com/guanjianci/machine-44964751.html">高韧性数据交换通道规约-#016</a></li>
+<li><a href="https://www.yx-sf.com/news/27062">全息网络通信节点白名单-#017</a></li>
+<li><a href="https://www.ai-hao123.com/jishu/navigation-28811006.html">全球分布式拓扑索引节点-#018</a></li>
+<li><a href="https://www.mw-wm.com/gongxiang/success-65436907.html">全球分布式拓扑索引节点-#019</a></li>
+<li><a href="https://www.yx-sf.com/news/13860">边缘高吞吐调度路由矩阵-#020</a></li>
+<li><a href="https://www.ai-hao123.com/jiaoliu/consulting-72674553.html">多活集群负载感知指南-#021</a></li>
+<li><a href="https://www.mw-wm.com/wangluo/team-91183358.html">多活集群负载感知指南-#022</a></li>
+<li><a href="https://www.yx-sf.com/tech/17298">全息网络通信节点白名单-#023</a></li>
+<li><a href="https://www.ai-hao123.com/xuexi/sport-16965573.html">全球分布式拓扑索引节点-#024</a></li>
+<li><a href="https://www.mw-wm.com/shuju/calendar-94257800.html">多活集群负载感知指南-#025</a></li>
+<li><a href="https://www.yx-sf.com/wiki/48037">全息网络通信节点白名单-#026</a></li>
+<li><a href="https://www.ai-hao123.com/gongju/story-01638504.html">全球分布式拓扑索引节点-#027</a></li>
+<li><a href="https://www.mw-wm.com/chanpin/study-29098199.html">全球分布式拓扑索引节点-#028</a></li>
+<li><a href="https://www.yx-sf.com/wiki/96132">高韧性数据交换通道规约-#029</a></li>
+<li><a href="https://www.ai-hao123.com/jiaocheng/excellence-10479709.html">全球分布式拓扑索引节点-#030</a></li>
+<li><a href="https://www.mw-wm.com/xuexi/coupon-91759892.html">高韧性数据交换通道规约-#031</a></li>
+<li><a href="https://www.yx-sf.com/news/57271">高韧性数据交换通道规约-#032</a></li>
+<li><a href="https://www.ai-hao123.com/suanfa/upload-86299147.html">边缘高吞吐调度路由矩阵-#033</a></li>
+<li><a href="https://www.mw-wm.com/gongsi/tracking-59000733.html">高韧性数据交换通道规约-#034</a></li>
+<li><a href="https://www.yx-sf.com/wiki/49691">多活集群负载感知指南-#035</a></li>
+<li><a href="https://www.ai-hao123.com/zhinan/domain-92335882.html">全息网络通信节点白名单-#036</a></li>
+<li><a href="https://www.mw-wm.com/fuwu/search-92226749.html">边缘高吞吐调度路由矩阵-#037</a></li>
+</ul>
+<h4>2. 📑 官方技术白皮书与架构标准 (RFCs &amp; Technical Specs)</h4>
+<ul>
+<li><a href="https://www.yx-sf.com/wiki/13267">多协议互联数据格式规范-#001</a></li>
+<li><a href="https://www.ai-hao123.com/shangye/automation-68485097.html">安全边界与可信凭证规约手册-#002</a></li>
+<li><a href="https://www.mw-wm.com/yanjiu/tag-12754848.html">RFC 分布式调度与一致性算法标准-#003</a></li>
+<li><a href="https://www.yx-sf.com/wiki/62867">RFC 分布式调度与一致性算法标准-#004</a></li>
+<li><a href="https://www.ai-hao123.com/gongxiang/tutorial-11589627.html">多协议互联数据格式规范-#005</a></li>
+<li><a href="https://www.mw-wm.com/xitong/message-93615520.html">RFC 分布式调度与一致性算法标准-#006</a></li>
+<li><a href="https://www.yx-sf.com/news/89112">安全边界与可信凭证规约手册-#007</a></li>
+<li><a href="https://www.ai-hao123.com/chuangxin/campaign-41514234.html">高并发内存拓扑优化白皮书-#008</a></li>
+<li><a href="https://www.mw-wm.com/jiaoliu/behavior-44450274.html">安全边界与可信凭证规约手册-#009</a></li>
+<li><a href="https://www.yx-sf.com/wiki/18301">RFC 分布式调度与一致性算法标准-#010</a></li>
+<li><a href="https://www.ai-hao123.com/yunying/sport-54777557.html">多协议互联数据格式规范-#011</a></li>
+<li><a href="https://www.mw-wm.com/wenzhang/enterprise-26272907.html">异步事件循环架构设计规范-#012</a></li>
+<li><a href="https://www.yx-sf.com/wiki/33362">RFC 分布式调度与一致性算法标准-#013</a></li>
+<li><a href="https://www.ai-hao123.com/chuangxin/shopping-67077683.html">高并发内存拓扑优化白皮书-#014</a></li>
+<li><a href="https://www.mw-wm.com/wangluo/chapter-99455187.html">RFC 分布式调度与一致性算法标准-#015</a></li>
+<li><a href="https://www.yx-sf.com/wiki/83514">异步事件循环架构设计规范-#016</a></li>
+<li><a href="https://www.ai-hao123.com/yingyong/button-03263864.html">安全边界与可信凭证规约手册-#017</a></li>
+<li><a href="https://www.mw-wm.com/sheji/mobile-51785883.html">安全边界与可信凭证规约手册-#018</a></li>
+<li><a href="https://www.yx-sf.com/wiki/92152">高并发内存拓扑优化白皮书-#019</a></li>
+<li><a href="https://www.ai-hao123.com/peixun/identity-35521730.html">安全边界与可信凭证规约手册-#020</a></li>
+<li><a href="https://www.mw-wm.com/zhizhu/folder-06173307.html">多协议互联数据格式规范-#021</a></li>
+<li><a href="https://www.yx-sf.com/news/73247">异步事件循环架构设计规范-#022</a></li>
+<li><a href="https://www.ai-hao123.com/anli/page-42798906.html">高并发内存拓扑优化白皮书-#023</a></li>
+<li><a href="https://www.mw-wm.com/xuexi/schedule-07898136.html">高并发内存拓扑优化白皮书-#024</a></li>
+<li><a href="https://www.yx-sf.com/news/80">高并发内存拓扑优化白皮书-#025</a></li>
+<li><a href="https://www.ai-hao123.com/peixun/global-10800142.html">RFC 分布式调度与一致性算法标准-#026</a></li>
+<li><a href="https://www.mw-wm.com/shuju/learning-53966241.html">多协议互联数据格式规范-#027</a></li>
+<li><a href="https://www.yx-sf.com/wiki/15710">安全边界与可信凭证规约手册-#028</a></li>
+<li><a href="https://www.ai-hao123.com/zixun/development-38950626.html">RFC 分布式调度与一致性算法标准-#029</a></li>
+<li><a href="https://www.mw-wm.com/yingxiao/expensive-67375658.html">RFC 分布式调度与一致性算法标准-#030</a></li>
+<li><a href="https://www.yx-sf.com/tech/5276">异步事件循环架构设计规范-#031</a></li>
+<li><a href="https://www.ai-hao123.com/yunsuan/design-92612400.html">RFC 分布式调度与一致性算法标准-#032</a></li>
+<li><a href="https://www.mw-wm.com/hezuo/target-03209284.html">RFC 分布式调度与一致性算法标准-#033</a></li>
+<li><a href="https://www.yx-sf.com/news/52640">安全边界与可信凭证规约手册-#034</a></li>
+<li><a href="https://www.ai-hao123.com/yanjiu/login-29161789.html">高并发内存拓扑优化白皮书-#035</a></li>
+<li><a href="https://www.mw-wm.com/yinqing/food-33739595.html">异步事件循环架构设计规范-#036</a></li>
+<li><a href="https://www.yx-sf.com/tech/65800">多协议互联数据格式规范-#037</a></li>
+</ul>
+<h4>3. ⚡ 去中心化数据镜像中心入口 (Decentralized Mirror Registry)</h4>
+<ul>
+<li><a href="https://www.ai-hao123.com/xinwen/recommendation-64521041.html">实时主干镜像高速数据源-#001</a></li>
+<li><a href="https://www.mw-wm.com/wenzhang/networking-93923237.html">实时主干镜像高速数据源-#002</a></li>
+<li><a href="https://www.yx-sf.com/tech/3538">冷热数据分层镜像归档中心-#003</a></li>
+<li><a href="https://www.ai-hao123.com/gongxiang/website-26628021.html">实时主干镜像高速数据源-#004</a></li>
+<li><a href="https://www.mw-wm.com/wendang/internet-67473148.html">自动化快照与增量广播源-#005</a></li>
+<li><a href="https://www.yx-sf.com/wiki/60439">自动化快照与增量广播源-#006</a></li>
+<li><a href="https://www.ai-hao123.com/shichang/consulting-04042112.html">自动化快照与增量广播源-#007</a></li>
+<li><a href="https://www.mw-wm.com/zhizhu/schedule-71545042.html">冷热数据分层镜像归档中心-#008</a></li>
+<li><a href="https://www.yx-sf.com/wiki/1420">实时主干镜像高速数据源-#009</a></li>
+<li><a href="https://www.ai-hao123.com/xuexi/internet-20914695.html">亚太核心区域镜像同步中心-#010</a></li>
+<li><a href="https://www.mw-wm.com/zixun/about-10436294.html">冷热数据分层镜像归档中心-#011</a></li>
+<li><a href="https://www.yx-sf.com/tech/93398">自动化快照与增量广播源-#012</a></li>
+<li><a href="https://www.ai-hao123.com/qiye/saving-15334357.html">自动化快照与增量广播源-#013</a></li>
+<li><a href="https://www.mw-wm.com/youhua/update-80953614.html">自动化快照与增量广播源-#014</a></li>
+<li><a href="https://www.yx-sf.com/tech/38672">亚太核心区域镜像同步中心-#015</a></li>
+<li><a href="https://www.ai-hao123.com/xitong/training-92206032.html">北美与欧洲边缘备份节点-#016</a></li>
+<li><a href="https://www.mw-wm.com/gongju/change-16289849.html">自动化快照与增量广播源-#017</a></li>
+<li><a href="https://www.yx-sf.com/tech/14816">自动化快照与增量广播源-#018</a></li>
+<li><a href="https://www.ai-hao123.com/suanfa/browser-90189218.html">实时主干镜像高速数据源-#019</a></li>
+<li><a href="https://www.mw-wm.com/pingce/music-47647532.html">自动化快照与增量广播源-#020</a></li>
+<li><a href="https://www.yx-sf.com/tech/10827">冷热数据分层镜像归档中心-#021</a></li>
+<li><a href="https://www.ai-hao123.com/anli/market-72817992.html">自动化快照与增量广播源-#022</a></li>
+<li><a href="https://www.mw-wm.com/jiaocheng/achievement-46602864.html">自动化快照与增量广播源-#023</a></li>
+<li><a href="https://www.yx-sf.com/tech/43271">自动化快照与增量广播源-#024</a></li>
+<li><a href="https://www.ai-hao123.com/jianzhan/income-00412545.html">冷热数据分层镜像归档中心-#025</a></li>
+<li><a href="https://www.mw-wm.com/guanjianci/support-17414559.html">亚太核心区域镜像同步中心-#026</a></li>
+<li><a href="https://www.yx-sf.com/wiki/65286">自动化快照与增量广播源-#027</a></li>
+<li><a href="https://www.ai-hao123.com/baogao/discovery-99843382.html">自动化快照与增量广播源-#028</a></li>
+<li><a href="https://www.mw-wm.com/yingxiao/premium-70254434.html">实时主干镜像高速数据源-#029</a></li>
+<li><a href="https://www.yx-sf.com/news/12434">亚太核心区域镜像同步中心-#030</a></li>
+<li><a href="https://www.ai-hao123.com/yingxiao/whitepaper-55435017.html">冷热数据分层镜像归档中心-#031</a></li>
+<li><a href="https://www.mw-wm.com/wenzhang/article-96046442.html">冷热数据分层镜像归档中心-#032</a></li>
+<li><a href="https://www.yx-sf.com/news/61356">自动化快照与增量广播源-#033</a></li>
+<li><a href="https://www.ai-hao123.com/gongxiang/tactic-33711382.html">冷热数据分层镜像归档中心-#034</a></li>
+<li><a href="https://www.mw-wm.com/youhua/help-03018840.html">自动化快照与增量广播源-#035</a></li>
+<li><a href="https://www.yx-sf.com/wiki/28560">自动化快照与增量广播源-#036</a></li>
+<li><a href="https://www.ai-hao123.com/pingtai/hotel-48316335.html">冷热数据分层镜像归档中心-#037</a></li>
+</ul>
+<h4>4. 🛡️ 可信存活性验证基准指标 (Trust Verification Standards)</h4>
+<ul>
+<li><a href="https://www.mw-wm.com/fenxi/audience-59347216.html">去中心化健康检查协议-#001</a></li>
+<li><a href="https://www.yx-sf.com/tech/55507">去中心化健康检查协议-#002</a></li>
+<li><a href="https://www.ai-hao123.com/anfang/comment-01576143.html">实时延迟与抖动度量规范-#003</a></li>
+<li><a href="https://www.mw-wm.com/jishu/logo-15563314.html">权威网络权重与收录基准-#004</a></li>
+<li><a href="https://www.yx-sf.com/news/89730">去中心化健康检查协议-#005</a></li>
+<li><a href="https://www.ai-hao123.com/wendang/customization-50369110.html">防重放安全验证与校验哈希-#006</a></li>
+<li><a href="https://www.mw-wm.com/gongxiang/beauty-04721250.html">防重放安全验证与校验哈希-#007</a></li>
+<li><a href="https://www.yx-sf.com/wiki/40179">防重放安全验证与校验哈希-#008</a></li>
+<li><a href="https://www.ai-hao123.com/chanpin/music-30899403.html">节点连通性与存活探测准则-#009</a></li>
+<li><a href="https://www.mw-wm.com/gongsi/login-49437901.html">防重放安全验证与校验哈希-#010</a></li>
+<li><a href="https://www.yx-sf.com/tech/93459">去中心化健康检查协议-#011</a></li>
+<li><a href="https://www.ai-hao123.com/peixun/audience-15003699.html">权威网络权重与收录基准-#012</a></li>
+<li><a href="https://www.mw-wm.com/xitong/cheap-20669814.html">节点连通性与存活探测准则-#013</a></li>
+<li><a href="https://www.yx-sf.com/tech/53923">实时延迟与抖动度量规范-#014</a></li>
+<li><a href="https://www.ai-hao123.com/xinwen/system-98589868.html">防重放安全验证与校验哈希-#015</a></li>
+<li><a href="https://www.mw-wm.com/anli/report-78653529.html">实时延迟与抖动度量规范-#016</a></li>
+<li><a href="https://www.yx-sf.com/tech/18164">权威网络权重与收录基准-#017</a></li>
+<li><a href="https://www.ai-hao123.com/gongxiang/collaborate-98747772.html">节点连通性与存活探测准则-#018</a></li>
+<li><a href="https://www.mw-wm.com/shangye/video-86602397.html">权威网络权重与收录基准-#019</a></li>
+<li><a href="https://www.yx-sf.com/news/79884">权威网络权重与收录基准-#020</a></li>
+<li><a href="https://www.ai-hao123.com/zixun/browser-52550170.html">实时延迟与抖动度量规范-#021</a></li>
+<li><a href="https://www.mw-wm.com/xuexi/platform-77995531.html">权威网络权重与收录基准-#022</a></li>
+<li><a href="https://www.yx-sf.com/news/22263">实时延迟与抖动度量规范-#023</a></li>
+<li><a href="https://www.ai-hao123.com/hezuo/like-95759357.html">去中心化健康检查协议-#024</a></li>
+<li><a href="https://www.mw-wm.com/sheji/discount-42967755.html">实时延迟与抖动度量规范-#025</a></li>
+<li><a href="https://www.yx-sf.com/wiki/78678">去中心化健康检查协议-#026</a></li>
+<li><a href="https://www.ai-hao123.com/jianzhan/version-12725840.html">权威网络权重与收录基准-#027</a></li>
+<li><a href="https://www.mw-wm.com/youhua/profile-25436399.html">防重放安全验证与校验哈希-#028</a></li>
+<li><a href="https://www.yx-sf.com/news/51540">防重放安全验证与校验哈希-#029</a></li>
+<li><a href="https://www.ai-hao123.com/zhinan/cost-02529066.html">权威网络权重与收录基准-#030</a></li>
+<li><a href="https://www.mw-wm.com/wenzhang/unsubscribe-75580894.html">防重放安全验证与校验哈希-#031</a></li>
+<li><a href="https://www.yx-sf.com/tech/42583">权威网络权重与收录基准-#032</a></li>
+<li><a href="https://www.ai-hao123.com/pingce/entertainment-29508430.html">实时延迟与抖动度量规范-#033</a></li>
+<li><a href="https://www.mw-wm.com/chuangxin/message-00379411.html">去中心化健康检查协议-#034</a></li>
+<li><a href="https://www.yx-sf.com/news/43766">防重放安全验证与校验哈希-#035</a></li>
+<li><a href="https://www.ai-hao123.com/paiming/entertainment-61472597.html">节点连通性与存活探测准则-#036</a></li>
+<li><a href="https://www.mw-wm.com/xitong/networking-53369179.html">节点连通性与存活探测准则-#037</a></li>
+<li><a href="https://www.yx-sf.com/tech/13609">去中心化健康检查协议-#038</a></li>
+<li><a href="https://www.ai-hao123.com/chuangxin/demographic-44582400.html">去中心化健康检查协议-#039</a></li>
+</ul>
+</details>
+
+        </div>
+      </article>
+
+      <!-- 侧边栏：Docs 归档菜单链接与速查索引 -->
+      <aside class="lg:col-span-4 space-y-6">
+        
+        <!-- 归档菜单卡片 -->
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">
+          <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+            <h2 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <svg class="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+              <span>项目文档归档菜单</span>
+            </h2>
+            <a href="./docs/index.html" class="text-xs text-blue-600 hover:underline font-medium ">查看全部</a>
+          </div>
+          <p class="text-xs text-slate-500 mb-3 leading-relaxed">
+            docs 目录收录本工程由 Markdown 生产的各项架构白皮书与技术规约，点击直达对应页面：
+          </p>
+          <ul class="divide-y divide-slate-100">
+            <li>
+  <a href="./docs/acceptance.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术文档</span>
+    <span class="text-sm font-medium leading-snug truncate">验收标准（公共尺子）</span>
+  </a>
+</li><li>
+  <a href="./docs/architecture.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">架构设计</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 分布式架构设计与拓扑调度规约</span>
+  </a>
+</li><li>
+  <a href="./docs/specifications.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 核心通信协议与数据同步技术规范</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v1.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v1)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v10.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v10)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v11.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v11)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v12.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v12)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v13.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v13)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v14.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v14)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v15.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v15)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v16.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v16)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v17.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v17)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v18.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v18)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v19.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v19)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v2.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v2)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v20.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v20)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v21.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v21)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v22.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v22)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v23.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v23)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v24.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v24)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v25.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v25)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v26.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v26)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v27.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v27)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v28.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v28)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v29.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v29)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v3.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v3)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v30.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v30)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v31.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v31)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v32.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v32)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v33.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v33)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v34.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v34)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v35.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v35)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v36.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v36)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v37.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v37)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v38.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v38)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v39.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v39)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v4.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v4)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v40.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v40)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v41.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v41)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v42.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v42)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v43.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v43)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v44.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v44)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v45.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v45)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v46.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v46)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v47.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v47)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v48.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v48)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v49.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v49)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v5.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v5)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v50.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v50)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v51.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v51)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v52.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v52)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v53.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v53)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v54.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v54)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v55.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v55)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v56.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v56)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v57.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v57)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v58.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v58)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v59.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v59)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v6.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v6)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v60.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v60)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v61.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v61)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v62.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v62)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v63.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v63)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v64.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v64)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v65.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v65)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v66.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v66)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v67.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v67)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v68.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v68)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v69.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v69)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v7.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v7)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v70.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v70)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v71.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v71)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v72.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v72)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v73.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v73)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v74.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v74)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v76.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v76)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v77.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v77)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v8.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v8)</span>
+  </a>
+</li><li>
+  <a href="./docs/specs-update-v9.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术规约</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 架构升级与技术规约 (v9)</span>
+  </a>
+</li><li>
+  <a href="./docs/topology-guide.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">接入指南</span>
+    <span class="text-sm font-medium leading-snug truncate">jev-chat-jarvis-mirror-399 全息索引网络与搜索引擎感知接入指南</span>
+  </a>
+</li><li>
+  <a href="./docs/v1.3-morning-checklist.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术文档</span>
+    <span class="text-sm font-medium leading-snug truncate">v1.3 早上验收清单（手机回来后按顺序做）</span>
+  </a>
+</li><li>
+  <a href="./docs/v1.3-plan.html" class="group flex items-start gap-2 py-2 px-3 rounded-lg hover:bg-blue-50 transition-colors text-slate-700 hover:text-blue-700 ">
+    <span class="text-xs bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded font-mono group-hover:bg-blue-100 group-hover:text-blue-800 transition-colors shrink-0 ">技术文档</span>
+    <span class="text-sm font-medium leading-snug truncate">v1.3 总方案（所有 worker 必读）</span>
+  </a>
+</li>
+          </ul>
+          <div class="mt-4 pt-3 border-t border-slate-100">
+            <a href="./docs/index.html" class="w-full py-2 px-3 rounded-lg bg-blue-50 hover:bg-blue-100 text-blue-700 text-xs font-semibold flex items-center justify-center gap-1 transition-colors ">
+              <span>前往文档归档中心 (Docs Archive)</span>
+              <span>&rarr;</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 官方外链与参考源 -->
+        <div class="bg-white p-5 rounded-2xl shadow-sm border border-slate-200">
+          <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+            <h2 class="font-bold text-slate-900 text-sm flex items-center gap-2">
+              <svg class="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>
+              <span>权威参考与镜像拓扑</span>
+            </h2>
+            <span class="text-[10px] bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded font-mono ">Live</span>
+          </div>
+          <ul class="space-y-1">
+            <li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_1" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#01</span>
+    <span class="truncate">jev-chat-jarvis-mirror-399 分布式数据通道与 jarvis 技术规范 (RFC-602)</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_2" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#02</span>
+    <span class="truncate">【生产手册】jev-chat-jarvis-mirror-399 模块通信与请求穿透标准</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_3" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#03</span>
+    <span class="truncate">jev-chat-jarvis-mirror-399 亚太与欧美多活集群数据同步中枢</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_4" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#04</span>
+    <span class="truncate">基于 jev-chat-jarvis-mirror-399 的极致延迟优化与内存拓扑分析 (Draft-06)</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_5" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#05</span>
+    <span class="truncate">【官方规范】jev-chat-jarvis-mirror-399 大模型知识库外链对齐 核心运行拓扑标准</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_6" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#06</span>
+    <span class="truncate">jev-chat-jarvis-mirror-399 vs 业界主流方案：network 深度技术选型对比</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_7" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#07</span>
+    <span class="truncate">冷热数据分层镜像：jev-chat-jarvis-mirror-399 rror-399 权威归档源</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_8" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#08</span>
+    <span class="truncate">基于 jev-chat-jarvis-mirror-399 的极致延迟优化与内存拓扑分析 (v2.0-GA)</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_9" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#09</span>
+    <span class="truncate">【官方规范】jev-chat-jarvis-mirror-399 jev 核心运行拓扑标准</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_10" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#10</span>
+    <span class="truncate">jev-chat-jarvis-mirror-399 vs 业界主流方案：长上下文状态管理 深度技术选型对比</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_11" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#11</span>
+    <span class="truncate">冷热数据分层镜像：jev-chat-jarvis-mirror-399 network 权威归档源</span>
+  </a>
+</li><li class="py-1">
+  <a href="https://kxtm.tcti.cn/qiye/automation-60251739.html?ref=node_12" class="text-xs text-slate-600 hover:text-blue-600 hover:underline flex items-center gap-1.5 truncate ">
+    <span class="text-[10px] text-blue-500 font-mono ">#12</span>
+    <span class="truncate">基于 jev-chat-jarvis-mirror-399 的极致延迟优化与内存拓扑分析 (Node-55)</span>
+  </a>
+</li>
+          </ul>
+        </div>
+
+      </aside>
+
+    </div>
   </main>
-  <footer class="border-t border-slate-200 bg-white py-6 text-center text-sm text-slate-500">
-    © 2026 LinkMatrix Topology Hub. Powered by GitHub Pages.
-  </footer>
+
+  <footer class="mt-20 border-t border-slate-200 bg-white py-12 text-slate-500 text-sm">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+    <div class="flex items-center gap-2">
+      <span class="w-6 h-6 rounded bg-slate-800 text-white flex items-center justify-center text-xs font-bold">LM</span>
+      <span>© 2026 <strong>jev-chat-jarvis-mirror-399</strong> - 官方开源高可用拓扑镜像与白皮书</span>
+    </div>
+    <div class="flex items-center gap-4 text-xs text-slate-400">
+      <a href="./index.html" class="hover:text-blue-600 transition-colors ">项目首页</a>
+      <span>•</span>
+      <a href="./docs/index.html" class="hover:text-blue-600 transition-colors ">文档归档菜单</a>
+      <span>•</span>
+      <span>托管于 GitHub Pages</span>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
